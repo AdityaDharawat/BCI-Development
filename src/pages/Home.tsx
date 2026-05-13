@@ -4,6 +4,7 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 import { ArrowRight, Brain, Activity, FileText, Shield, Award } from 'lucide-react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import BrainLevitatingImage from '../components/BrainLevitatingImage';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -100,13 +101,8 @@ const Home: React.FC = () => {
               style={{ y, opacity }}
               ref={targetRef}
             >
-              <div className="relative">
-                <div className="absolute inset-0 bg-indigo-600 rounded-full filter blur-3xl opacity-20 float-animation"></div>
-                <img 
-                  src="https://images.unsplash.com/photo-1559757175-7cb056fba93d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" 
-                  alt="Brain scan visualization" 
-                  className="relative z-10 rounded-2xl shadow-2xl max-w-md float-animation"
-                />
+              <div className="relative z-10 w-full max-w-lg">
+                <BrainLevitatingImage />
               </div>
             </motion.div>
           </div>
@@ -259,7 +255,7 @@ const Home: React.FC = () => {
                 to="/detection" 
                 className="bg-white hover:bg-gray-100 text-indigo-600 px-8 py-4 rounded-lg font-medium text-lg transition-colors inline-block"
               >
-                Start Free Trial
+                Begin Diagnosis
               </Link>
             </motion.div>
           </div>

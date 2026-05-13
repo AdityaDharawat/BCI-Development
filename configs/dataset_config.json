@@ -1,0 +1,13 @@
+{
+  "raw_data_root": "brainMRI",
+  "train_folder": "Training",
+  "test_folder": "Testing",
+  "allowed_extensions": [
+    ".jpg",
+    ".jpeg",
+    ".png"
+  ],
+  "report_path": "utils/dataset/duplicate_report.json",
+  "backup_root": "data/backups",
+  "log_dir": "utils/dataset/cleanup_logs"
+}

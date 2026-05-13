@@ -1,9 +1,9 @@
-// Vision Transformer Model for Brain Tumor Detection
+// CNN Model for Brain Tumor Detection
 // This is a simplified implementation for demonstration purposes
 
 import * as tf from '@tensorflow/tfjs';
 
-class VisionTransformer {
+class CnnTumorClassifier {
   constructor() {
     this.model = null;
     this.initialized = false;
@@ -145,4 +145,4 @@ class VisionTransformer {
   }
 }
 
-export default new VisionTransformer();
+export default new CnnTumorClassifier();

@@ -5,13 +5,15 @@ import { AlertCircle, CheckCircle, Info } from 'lucide-react';
 interface ResultCardProps {
   detected: boolean;
   confidence: number;
+  tumorTypeFromName?: string;
   onViewDetails?: () => void;
 }
 
-const ResultCard: React.FC<ResultCardProps> = ({ 
-  detected, 
-  confidence, 
-  onViewDetails 
+const ResultCard: React.FC<ResultCardProps> = ({
+  detected,
+  confidence,
+  tumorTypeFromName,
+  onViewDetails,
 }) => {
   const bgColor = detected 
     ? 'bg-red-50 border-red-200' 
@@ -39,6 +41,10 @@ const ResultCard: React.FC<ResultCardProps> = ({
           <h3 className={`text-lg font-medium ${titleColor}`}>
             {detected ? 'Potential tumor detected' : 'No tumor detected'}
           </h3>
+          <p className="mt-1 text-sm text-slate-600">
+            Type from filename:{' '}
+            <span className="font-semibold text-slate-900">{tumorTypeFromName ?? (detected ? 'Unknown tumor' : 'No tumor')}</span>
+          </p>
           <div className="mt-2 text-sm">
             <p className="text-gray-700">
               Confidence: <span className="font-medium">{(confidence * 100).toFixed(1)}%</span>

@@ -1,99 +1,31 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { Calendar, Clock, Download, Filter, ChevronDown, ChevronUp, BarChart, PieChart, LineChart } from 'lucide-react';
+import { useDetection } from '../context/DetectionContext';
 
 const Dashboard: React.FC = () => {
+  const { detectionHistory } = useDetection();
   const [activeTab, setActiveTab] = useState('all');
   const [sortOrder, setSortOrder] = useState('newest');
   const [isFilterOpen, setIsFilterOpen] = useState(false);
-  interface Detection {
-    id: number;
-    patientId: string;
-    scanName: string;
-    date: string;
-    result: string;
-    confidence: number;
-    notes: string;
-  }
 
-  const [detections, setDetections] = useState<Detection[]>([]);
+  const filteredDetections = useMemo(() => {
+    return detectionHistory.filter((item) => {
+      if (activeTab === 'all') return true;
+      if (activeTab === 'positive') return item.result === 'positive';
+      if (activeTab === 'negative') return item.result === 'negative';
+      return true;
+    });
+  }, [activeTab, detectionHistory]);
 
-  useEffect(() => {
-    // Simulate fetching data
-    const mockData = [
-      {
-        id: 1,
-        patientId: 'P-10045',
-        scanName: 'brain_mri_001.dcm',
-        date: '2023-05-15T09:30:00',
-        result: 'negative',
-        confidence: 0.96,
-        notes: 'Routine checkup, no abnormalities detected',
-      },
-      {
-        id: 2,
-        patientId: 'P-10046',
-        scanName: 'brain_mri_002.dcm',
-        date: '2023-05-14T14:15:00',
-        result: 'positive',
-        confidence: 0.89,
-        notes: 'Small anomaly detected in frontal lobe, recommended follow-up',
-      },
-      {
-        id: 3,
-        patientId: 'P-10047',
-        scanName: 'brain_mri_003.dcm',
-        date: '2023-05-14T11:45:00',
-        result: 'positive',
-        confidence: 0.92,
-        notes: 'Potential glioblastoma detected, urgent consultation required',
-      },
-      {
-        id: 4,
-        patientId: 'P-10048',
-        scanName: 'brain_mri_004.dcm',
-        date: '2023-05-13T16:20:00',
-        result: 'negative',
-        confidence: 0.97,
-        notes: 'Post-treatment follow-up, no recurrence detected',
-      },
-      {
-        id: 5,
-        patientId: 'P-10049',
-        scanName: 'brain_mri_005.dcm',
-        date: '2023-05-12T10:00:00',
-        result: 'negative',
-        confidence: 0.95,
-        notes: 'Routine screening, no abnormalities detected',
-      },
-      {
-        id: 6,
-        patientId: 'P-10050',
-        scanName: 'brain_mri_006.dcm',
-        date: '2023-05-11T13:30:00',
-        result: 'positive',
-        confidence: 0.87,
-        notes: 'Small meningioma detected, recommended follow-up in 3 months',
-      },
-    ];
-
-    setDetections(mockData);
-  }, []);
-
-  const filteredDetections = detections.filter(detection => {
-    if (activeTab === 'all') return true;
-    if (activeTab === 'positive') return detection.result === 'positive';
-    if (activeTab === 'negative') return detection.result === 'negative';
-    return true;
-  });
-
-  const sortedDetections = [...filteredDetections].sort((a, b) => {
-    if (sortOrder === 'newest') {
-      return new Date(b.date).getTime() - new Date(a.date).getTime();
-    } else {
+  const sortedDetections = useMemo(() => {
+    return [...filteredDetections].sort((a, b) => {
+      if (sortOrder === 'newest') {
+        return new Date(b.date).getTime() - new Date(a.date).getTime();
+      }
       return new Date(a.date).getTime() - new Date(b.date).getTime();
-    }
-  });
+    });
+  }, [filteredDetections, sortOrder]);
 
   const toggleFilter = () => {
     setIsFilterOpen(!isFilterOpen);
@@ -117,9 +49,9 @@ const Dashboard: React.FC = () => {
   };
 
   // Stats for the dashboard
-  const totalScans = detections.length;
-  const positiveScans = detections.filter(d => d.result === 'positive').length;
-  const negativeScans = detections.filter(d => d.result === 'negative').length;
+  const totalScans = detectionHistory.length;
+  const positiveScans = detectionHistory.filter((item) => item.result === 'positive').length;
+  const negativeScans = detectionHistory.filter((item) => item.result === 'negative').length;
   const positiveRate = totalScans > 0 ? (positiveScans / totalScans) * 100 : 0;
 
   return (
@@ -198,12 +130,12 @@ const Dashboard: React.FC = () => {
                   </div>
                 </div>
                 <p className="text-3xl font-bold text-gray-900">
-                  {detections.length > 0
+                  {detectionHistory.length > 0
                     ? (
                         parseFloat(
                           (
-                            detections.reduce((sum, d) => sum + d.confidence, 0) /
-                            detections.length
+                            detectionHistory.reduce((sum, item) => sum + item.confidence, 0) /
+                            detectionHistory.length
                           ).toFixed(2)
                         ) * 100
                       )
@@ -389,7 +321,7 @@ const Dashboard: React.FC = () => {
                 <div className="flex justify-between items-center">
                   <p className="text-sm text-gray-700">
                     Showing <span className="font-medium">{sortedDetections.length}</span> of{' '}
-                    <span className="font-medium">{detections.length}</span> results
+                    <span className="font-medium">{detectionHistory.length}</span> results
                   </p>
                   <div className="flex space-x-2">
                     <button className="px-3 py-1 border border-gray-300 rounded-md text-sm font-medium text-gray-700 bg-white hover:bg-gray-50">

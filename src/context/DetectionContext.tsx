@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
-import { mockAnalyzeScan, getDetectionHistory, HistoryItem } from '../utils/api';
+import { analyzeScan as analyzeScanApi, mockAnalyzeScan, getDetectionHistory, HistoryItem } from '../utils/api';
 
 interface DetectionContextType {
   isLoading: boolean;
@@ -8,6 +8,7 @@ interface DetectionContextType {
     detected: boolean;
     confidence: number;
     processingTime?: number;
+    tumorTypeFromName?: string;
   } | null;
   analyzeScan: (file: File) => Promise<void>;
   clearResult: () => void;
@@ -23,6 +24,7 @@ export const DetectionProvider: React.FC<{ children: ReactNode }> = ({ children 
     detected: boolean;
     confidence: number;
     processingTime?: number;
+    tumorTypeFromName?: string;
   } | null>(null);
 
   useEffect(() => {
@@ -32,10 +34,28 @@ export const DetectionProvider: React.FC<{ children: ReactNode }> = ({ children 
   const analyzeScan = async (file: File) => {
     setIsLoading(true);
     try {
-      const result = await mockAnalyzeScan(file);
-      setCurrentResult(result);
-      
-      // Add to history (in a real app, this would be handled by the backend)
+      let result;
+      let usedFallback = false;
+
+      try {
+        result = await analyzeScanApi(file);
+      } catch (apiError) {
+        console.warn('Falling back to mock prediction due to API error:', apiError);
+        result = await mockAnalyzeScan(file);
+        usedFallback = true;
+      }
+
+      setCurrentResult({
+        ...result,
+        tumorTypeFromName: result.tumorTypeFromName,
+      });
+
+
+      if (!usedFallback) {
+        await refreshHistory();
+        return;
+      }
+
       const newHistoryItem: HistoryItem = {
         id: Date.now().toString(),
         patientId: `P-${Math.floor(10000 + Math.random() * 90000)}`,
@@ -45,7 +65,7 @@ export const DetectionProvider: React.FC<{ children: ReactNode }> = ({ children 
         confidence: result.confidence,
         imageUrl: URL.createObjectURL(file)
       };
-      
+
       setDetectionHistory(prev => [newHistoryItem, ...prev]);
     } catch (error) {
       console.error('Error analyzing scan:', error);
@@ -60,45 +80,46 @@ export const DetectionProvider: React.FC<{ children: ReactNode }> = ({ children 
 
   const refreshHistory = async () => {
     try {
-      // In a real app, this would fetch from the API
-      // const history = await getDetectionHistory();
-      // setDetectionHistory(history);
-      
-      // For demo, we'll use mock data
-      const mockHistory: HistoryItem[] = [
-        {
-          id: '1',
-          patientId: 'P-10045',
-          scanName: 'brain_mri_001.dcm',
-          date: '2023-05-15T09:30:00',
-          result: 'negative',
-          confidence: 0.96,
-          imageUrl: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
-        },
-        {
-          id: '2',
-          patientId: 'P-10046',
-          scanName: 'brain_mri_002.dcm',
-          date: '2023-05-14T14:15:00',
-          result: 'positive',
-          confidence: 0.89,
-          imageUrl: 'https://images.unsplash.com/photo-1559757175-7cb056fba93d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
-        },
-        {
-          id: '3',
-          patientId: 'P-10047',
-          scanName: 'brain_mri_003.dcm',
-          date: '2023-05-14T11:45:00',
-          result: 'positive',
-          confidence: 0.92,
-          imageUrl: 'https://images.unsplash.com/photo-1559757148-c1a53a7d8af3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
-        }
-      ];
-      
-      setDetectionHistory(mockHistory);
-    } catch (error) {
-      console.error('Error fetching detection history:', error);
+      const history = await getDetectionHistory();
+      if (history && history.length > 0) {
+        setDetectionHistory(history);
+        return;
+      }
+    } catch (apiError) {
+      console.warn('Unable to fetch remote history, using local sample data:', apiError);
     }
+
+    const mockHistory: HistoryItem[] = [
+      {
+        id: '1',
+        patientId: 'P-10045',
+        scanName: 'brain_mri_001.dcm',
+        date: '2023-05-15T09:30:00',
+        result: 'negative',
+        confidence: 0.96,
+        imageUrl: null
+      },
+      {
+        id: '2',
+        patientId: 'P-10046',
+        scanName: 'brain_mri_002.dcm',
+        date: '2023-05-14T14:15:00',
+        result: 'positive',
+        confidence: 0.89,
+        imageUrl: null
+      },
+      {
+        id: '3',
+        patientId: 'P-10047',
+        scanName: 'brain_mri_003.dcm',
+        date: '2023-05-14T11:45:00',
+        result: 'positive',
+        confidence: 0.92,
+        imageUrl: null
+      }
+    ];
+
+    setDetectionHistory(mockHistory);
   };
 
   return (

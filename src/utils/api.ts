@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3000/api';
+export const API_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:3000/api';
 
 export interface DetectionResult {
   detected: boolean;
@@ -13,6 +13,7 @@ export interface DetectionResult {
     confidence: number;
   }[];
   processingTime: number;
+  tumorTypeFromName?: string;
 }
 
 export interface HistoryItem {
@@ -22,7 +23,7 @@ export interface HistoryItem {
   date: string;
   result: 'positive' | 'negative';
   confidence: number;
-  imageUrl: string;
+  imageUrl: string | null;
 }
 
 // Function to upload and analyze an MRI scan
