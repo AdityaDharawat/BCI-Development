@@ -106,7 +106,7 @@ The backend preserves the current prediction contract and exposes:
 - `GET /api/history` — detection history
 - `GET /api/detection/:id` — single detection details
 
-The backend also supports cross-origin development and secure upload handling.
+The backend also supports cross-origin development and secure upload handling
 
 ## Model Integration
 The model integration preserves the existing Vision Transformer inference pipeline and preprocess flow while keeping compatibility with the current dataset format.
