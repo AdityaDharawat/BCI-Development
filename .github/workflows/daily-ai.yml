@@ -16,6 +16,12 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
+      - name: Debug Repository Files
+        run: |
+          pwd
+          ls -la
+          find . -name "ai_update.py"
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
