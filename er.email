@@ -1,0 +1,17 @@
+[33mcommit 8d5179101687b147d59e84fb95c32b325e91871a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: AdityaDharawat <adharawatwork@gmail.com>
+Date:   Sun May 17 23:47:30 2026 +0530
+
+    Fixed Groq API parsing
+
+[33mcommit 0fcae012ca045d089dc423857ee1107256dcaa8e[m
+Author: AdityaDharawat <adharawatwork@gmail.com>
+Date:   Sun May 17 23:31:16 2026 +0530
+
+    Final automation fix
+
+[33mcommit bf156dc6828d22876068fc6ac11a76c8f514931d[m
+Author: AdityaDharawat <163044915+AdityaDharawat@users.noreply.github.com>
+Date:   Sun May 17 23:29:52 2026 +0530
+
+    Update README.md
