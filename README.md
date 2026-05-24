@@ -438,3 +438,12 @@ Learning a few better ways to handle EEG feature noise.
 Spent time optimizing the model flow for EEG-based fatigue detection.
 Trying to improve reliability without overcomplicating the architecture.
 
+
+
+---
+
+### Daily Update (2026-05-25 01:38:46 IST)
+
+Spent a while debugging issues around EEG-based authentication systems today.
+Realized that preprocessing quality changes the model output more than expected.
+
