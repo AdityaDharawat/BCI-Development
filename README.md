@@ -295,3 +295,12 @@ Enhanced preprocessing pipeline stability and improved experimental documentatio
 Evaluate model generalization performance on extended EEG datasets.
 
 
+
+
+---
+
+### Daily Update (2026-05-24 07:44:13)
+
+Experimented with a different approach for transformer models for EEG today.
+Still learning how small signal variations affect predictions.
+
