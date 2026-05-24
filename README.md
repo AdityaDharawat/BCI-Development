@@ -78,7 +78,7 @@ BCI-Development/
 ├── package.json
 ├── vite.config.ts
 └── tsconfig.json
-```
+````
 
 ---
 
@@ -173,12 +173,13 @@ GET /api/detection/:id
 The current system preserves the Vision Transformer preprocessing pipeline while maintaining compatibility with existing dataset formats.
 
 Current areas of experimentation include:
-- EEG signal preprocessing
-- Transfer learning workflows
-- Transformer-based signal understanding
-- Feature extraction optimization
-- Cognitive load estimation research
-- Real-time inference stability
+
+* EEG signal preprocessing
+* Transfer learning workflows
+* Transformer-based signal understanding
+* Feature extraction optimization
+* Cognitive load estimation research
+* Real-time inference stability
 
 ---
 
@@ -186,11 +187,11 @@ Current areas of experimentation include:
 
 This repository includes an autonomous GitHub Actions workflow that:
 
-- Runs daily
-- Generates AI research updates
-- Appends realistic development logs
-- Pushes commits automatically
-- Simulates active long-term research progress
+* Runs daily
+* Generates AI research updates
+* Appends realistic development logs
+* Pushes commits automatically
+* Simulates active long-term research progress
 
 Workflow file:
 
@@ -208,15 +209,15 @@ ai_update.py
 
 ## Future Improvements
 
-- Real production model weight loading
-- Persistent database integration
-- DICOM parsing support
-- Real-time EEG stream processing
-- Distributed inference optimization
-- Automated evaluation benchmarking
-- Voice-agent integration with Swady AI
-- Autonomous code generation agents
-- Self-improving ML experimentation pipeline
+* Real production model weight loading
+* Persistent database integration
+* DICOM parsing support
+* Real-time EEG stream processing
+* Distributed inference optimization
+* Automated evaluation benchmarking
+* Voice-agent integration with Swady AI
+* Autonomous code generation agents
+* Self-improving ML experimentation pipeline
 
 ---
 
@@ -226,229 +227,187 @@ ai_update.py
 
 ### Daily Update (2026-05-17 18:18:06)
 
-Started setting up the automation workflow for continuous repository updates.  
+Started setting up the automation workflow for continuous repository updates.
 Trying to structure the research logs in a cleaner way.
 
 ---
 
 ### Daily Update (2026-05-17 20:05:58)
 
-Read more about EEG preprocessing pipelines today.  
+Read more about EEG preprocessing pipelines today.
 Interesting how tiny signal artifacts affect model consistency.
 
 ---
 
 ### Daily Update (2026-05-18 11:35:17)
 
-Spent time understanding transformer attention flow for EEG sequences.  
+Spent time understanding transformer attention flow for EEG sequences.
 Still experimenting with better feature extraction approaches.
 
 ---
 
 ### Daily Update (2026-05-18 11:57:02)
 
-Tried optimizing some preprocessing logic for noisy MRI samples.  
+Tried optimizing some preprocessing logic for noisy MRI samples.
 Learning how normalization impacts prediction confidence.
 
 ---
 
 ### Daily Update (2026-05-18 19:56:31)
 
-Looked deeper into transfer learning approaches for BCI systems.  
+Looked deeper into transfer learning approaches for BCI systems.
 Trying to understand how pretrained embeddings behave on EEG data.
 
 ---
 
 ### Daily Update (2026-05-18 20:27:34)
 
-Experimented with restructuring parts of the inference flow today.  
+Experimented with restructuring parts of the inference flow today.
 Interesting to see how latency changes with smaller preprocessing steps.
 
 ---
 
 ### Daily Update (2026-05-19 11:35:24)
 
-Read more about signal instability during real-time inference.  
+Read more about signal instability during real-time inference.
 Trying to make prediction outputs more consistent.
 
 ---
 
 ### Daily Update (2026-05-19 19:53:08)
 
-Spent some time analyzing feature extraction bottlenecks.  
+Spent some time analyzing feature extraction bottlenecks.
 Still learning how EEG frequency bands impact classification.
 
 ---
 
 ### Daily Update (2026-05-19 20:50:04)
 
-Testing cleaner approaches for preprocessing noisy validation samples.  
+Testing cleaner approaches for preprocessing noisy validation samples.
 Observed slightly better stability during inference runs.
 
 ---
 
 ### Daily Update (2026-05-20 13:58:55)
 
-Looked into transformer-based temporal attention mechanisms today.  
+Looked into transformer-based temporal attention mechanisms today.
 Trying to understand how sequence learning affects EEG interpretation.
 
 ---
 
 ### Daily Update (2026-05-20 19:41:50)
 
-Worked on improving preprocessing consistency for unstable samples.  
+Worked on improving preprocessing consistency for unstable samples.
 Interesting to see how small pipeline tweaks affect outputs.
 
 ---
 
 ### Daily Update (2026-05-20 21:00:31)
 
-Spent time debugging inconsistent predictions on edge-case scans.  
+Spent time debugging inconsistent predictions on edge-case scans.
 Still optimizing the validation pipeline step by step.
 
 ---
 
 ### Daily Update (2026-05-21 10:55:10)
 
-Experimented with alternate feature normalization strategies today.  
+Experimented with alternate feature normalization strategies today.
 Learning how signal scaling affects model confidence.
 
 ---
 
 ### Daily Update (2026-05-21 20:52:30)
 
-Read about adaptive BCI interfaces and dynamic signal routing.  
+Read about adaptive BCI interfaces and dynamic signal routing.
 Trying to connect some of those ideas into the current pipeline.
 
 ---
 
 ### Daily Update (2026-05-22 01:12:53)
 
-Started testing lighter preprocessing logic for faster inference.  
+Started testing lighter preprocessing logic for faster inference.
 Interesting balance between speed and signal quality.
 
 ---
 
 ### Daily Update (2026-05-22 09:32:23)
 
-Spent some time observing model behavior on noisy EEG segments.  
+Spent some time observing model behavior on noisy EEG segments.
 Trying to improve robustness without increasing latency too much.
 
 ---
 
 ### Daily Update (2026-05-22 19:46:07)
 
-Looked deeper into cognitive load estimation approaches today.  
+Looked deeper into cognitive load estimation approaches today.
 Still understanding how temporal signal shifts affect predictions.
 
 ---
 
 ### Daily Update (2026-05-22 20:43:54)
 
-Experimented with slightly different validation flows today.  
+Experimented with slightly different validation flows today.
 Trying to reduce unstable outputs during repeated testing.
 
 ---
 
 ### Daily Update (2026-05-23 10:05:32)
 
-Read more about transformer optimization strategies for EEG systems.  
+Read more about transformer optimization strategies for EEG systems.
 Interesting to see how attention layers capture signal relationships.
 
 ---
 
 ### Daily Update (2026-05-23 19:40:43)
 
-Worked on simplifying parts of the preprocessing architecture.  
+Worked on simplifying parts of the preprocessing architecture.
 Trying to make the overall inference flow cleaner.
 
 ---
 
 ### Daily Update (2026-05-23 20:07:46)
 
-Observed some interesting prediction behavior on noisy scans today.  
+Observed some interesting prediction behavior on noisy scans today.
 Still learning how tiny signal variations affect confidence scores.
 
 ---
 
 ### Daily Update (2026-05-23 22:11:16)
 
-Experimented with improving feature extraction stability.  
+Experimented with improving feature extraction stability.
 Trying to reduce unnecessary computation overhead.
 
 ---
 
 ### Daily Update (2026-05-24 05:36:13)
 
-Read more about temporal EEG feature mapping techniques today.  
+Read more about temporal EEG feature mapping techniques today.
 Interesting to compare different transformer embedding approaches.
 
 ---
 
 ### Daily Update (2026-05-24 07:32:50)
 
-Investigated transfer learning behavior on small EEG batches.  
+Investigated transfer learning behavior on small EEG batches.
 Trying to understand how pretrained representations generalize.
 
 ---
 
 ### Daily Update (2026-05-24 07:35:28)
 
-Spent time exploring motor imagery decoding patterns today.  
+Spent time exploring motor imagery decoding patterns today.
 Still experimenting with cleaner signal interpretation methods.
 
 ---
 
 ### Daily Update (2026-05-24 07:44:13)
 
-Experimented with a different approach for transformer models for EEG today.  
+Experimented with a different approach for transformer models for EEG today.
 Still learning how small signal variations affect predictions.
 
 ---
 
 ### Daily Update (2026-05-24 07:45:07)
 
-Found an interesting pattern while testing cognitive load estimation.  
+Found an interesting pattern while testing cognitive load estimation.
 Going deeper into optimizing feature extraction and model stability.
-
----
-
-### Daily Update (2026-05-25 00:30:11)
-
-Spent some time understanding how noisy EEG samples affect classification confidence.  
-Trying to improve preprocessing consistency before retraining.
-
----
-
-### Daily Update (2026-05-26 00:30:09)
-
-Read more about temporal attention mechanisms in transformer pipelines today.  
-Interesting to see how sequence handling impacts EEG interpretation.
-
----
-
-### Daily Update (2026-05-27 00:30:12)
-
-Testing a lighter preprocessing flow to reduce unnecessary computation overhead.  
-Still experimenting with balancing speed and signal quality.
-
----
-
-### Daily Update (2026-05-28 00:30:15)
-
-Observed that certain EEG frequency bands respond differently during inference.  
-Going deeper into understanding feature sensitivity.
-
----
-
-### Daily Update (2026-05-29 00:30:08)
-
-Tried restructuring parts of the preprocessing logic today.  
-Learning how tiny pipeline changes affect prediction consistency.
-
----
-
-### Daily Update (2026-05-30 00:30:14)
-
-Spent time debugging unstable outputs on noisy validation samples.  
-Trying to make the classification flow more reliable overall.
