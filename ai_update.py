@@ -12,38 +12,40 @@ headers = {
     "Content-Type": "application/json"
 }
 
-# Research topics pool
 research_topics = [
     "EEG signal preprocessing",
-    "Brain signal classification",
-    "Motor imagery decoding",
-    "Deep learning for BCI",
-    "Real-time EEG analysis",
-    "Transformer models for EEG",
-    "Noise reduction in EEG signals",
-    "Emotion recognition using EEG",
-    "Neural feature extraction",
-    "Brainwave visualization systems",
-    "Adaptive BCI interfaces",
-    "Attention detection models",
-    "Cognitive load estimation",
-    "Hybrid CNN-LSTM architectures",
-    "Transfer learning in BCI"
+    "brain signal classification",
+    "motor imagery decoding",
+    "deep learning for BCI",
+    "real-time EEG analysis",
+    "transformer models for EEG",
+    "noise reduction in EEG signals",
+    "emotion recognition using EEG",
+    "neural feature extraction",
+    "adaptive BCI interfaces",
+    "attention detection models",
+    "cognitive load estimation"
 ]
 
 selected_topic = random.choice(research_topics)
 
 prompt = f"""
-You are an AI research assistant working on an advanced Brain Computer Interface project.
+You are a developer casually working on a Brain Computer Interface project.
 
-Generate:
-1. A short professional research update
-2. A technical improvement implemented today
-3. A future enhancement idea
+Write ONLY 2 short human-like lines for a README daily update.
 
 Topic: {selected_topic}
 
-Keep it realistic, concise, technical, and professional.
+Requirements:
+- sound natural
+- sound like a real developer
+- avoid corporate language
+- avoid sounding like AI
+- mention learning, experimenting, debugging, optimizing, discovering, or understanding something
+- keep it short
+- no markdown headings
+- no bullet points
+- no emojis
 """
 
 data = {
@@ -54,8 +56,21 @@ data = {
             "content": prompt
         }
     ],
-    "temperature": 0.8
+    "temperature": 1.1,
+    "max_tokens": 120
 }
+
+fallback_updates = [
+    f"Spent some time understanding how {selected_topic} behaves with noisy EEG data.\nTrying a cleaner preprocessing flow to improve consistency.",
+
+    f"Experimented with a different approach for {selected_topic} today.\nStill learning how small signal variations affect predictions.",
+
+    f"Found an interesting pattern while testing {selected_topic}.\nGoing deeper into optimizing feature extraction and model stability.",
+
+    f"Read more about recent techniques related to {selected_topic}.\nTrying to understand how to make the pipeline more reliable.",
+
+    f"Worked on improving the logic around {selected_topic} today.\nLearning a few better ways to handle EEG feature noise."
+]
 
 try:
     response = requests.post(url, headers=headers, json=data)
@@ -63,32 +78,12 @@ try:
     response_json = response.json()
 
     if "choices" in response_json:
-        ai_content = response_json["choices"][0]["message"]["content"]
+        ai_content = response_json["choices"][0]["message"]["content"].strip()
     else:
-        ai_content = f"""
-### Research Focus
-Investigated optimization strategies for {selected_topic}.
+        ai_content = random.choice(fallback_updates)
 
-### Improvement Added
-Enhanced preprocessing pipeline stability and improved experimental documentation.
-
-### Next Planned Step
-Evaluate model generalization performance on extended EEG datasets.
-"""
-
-except Exception as e:
-    ai_content = f"""
-### Research Focus
-Investigated optimization strategies for {selected_topic}.
-
-### Improvement Added
-Enhanced preprocessing pipeline stability and improved experimental documentation.
-
-### Next Planned Step
-Evaluate model generalization performance on extended EEG datasets.
-
-Error: {str(e)}
-"""
+except Exception:
+    ai_content = random.choice(fallback_updates)
 
 timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
@@ -96,8 +91,7 @@ daily_update = f"""
 
 ---
 
-# Daily AI Research Update
-Date: {timestamp}
+### Daily Update ({timestamp})
 
 {ai_content}
 
@@ -106,4 +100,4 @@ Date: {timestamp}
 with open("README.md", "a", encoding="utf-8") as file:
     file.write(daily_update)
 
-print("README updated successfully with AI research log.")
+print("README updated successfully.")
