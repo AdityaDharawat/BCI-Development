@@ -420,3 +420,12 @@ Going deeper into optimizing feature extraction and model stability.
 Found an interesting pattern while testing brain signal classification.
 Going deeper into optimizing feature extraction and model stability.
 
+
+
+---
+
+### Daily Update (2026-05-24 19:24:36)
+
+Worked on improving the logic around motor imagery decoding today.
+Learning a few better ways to handle EEG feature noise.
+
