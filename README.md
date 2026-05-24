@@ -429,3 +429,12 @@ Going deeper into optimizing feature extraction and model stability.
 Worked on improving the logic around motor imagery decoding today.
 Learning a few better ways to handle EEG feature noise.
 
+
+
+---
+
+### Daily Update (2026-05-25 01:02:53 IST)
+
+Spent time optimizing the model flow for EEG-based fatigue detection.
+Trying to improve reliability without overcomplicating the architecture.
+
