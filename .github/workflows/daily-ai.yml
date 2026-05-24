@@ -2,7 +2,9 @@ name: Daily AI Commit
 
 on:
   schedule:
+    # 12:30 AM IST
     - cron: '0 19 * * *'
+
   workflow_dispatch:
 
 permissions:
@@ -16,38 +18,34 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Debug Repository Files
-        run: |
-          echo "CURRENT DIRECTORY:"
-          pwd
-
-          echo "FILES:"
-          ls -la
-
-          echo "SEARCHING FOR ai_update.py:"
-          find . -name "ai_update.py"
-
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
       - name: Install Dependencies
-        run: pip install requests
+        run: |
+          pip install requests
 
-      - name: Run AI Agent
+      - name: Run AI Research Agent
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: |
-          python ./ai_update.py
+          python ai_update.py
 
-      - name: Commit and Push
+      - name: Commit Changes
         run: |
-          git config user.name "AI-Agent"
+          git config user.name "Swady-AI"
           git config user.email "adharawatwork@gmail.com"
 
-          git add .
+          git add README.md
 
-          git diff --cached --quiet || git commit -m "Daily AI repository improvement"
+          if git diff --cached --quiet; then
+            echo "No changes detected."
+          else
+            COMMIT_TIME=$(date +"%Y-%m-%d %H:%M:%S")
 
-          git push
+            git commit -m "AI research update - $COMMIT_TIME"
+
+            git push
+          fi
