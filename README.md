@@ -304,3 +304,12 @@ Evaluate model generalization performance on extended EEG datasets.
 Experimented with a different approach for transformer models for EEG today.
 Still learning how small signal variations affect predictions.
 
+
+
+---
+
+### Daily Update (2026-05-24 07:45:07)
+
+Found an interesting pattern while testing cognitive load estimation.
+Going deeper into optimizing feature extraction and model stability.
+
