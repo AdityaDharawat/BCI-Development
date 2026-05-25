@@ -456,3 +456,12 @@ Realized that preprocessing quality changes the model output more than expected.
 Read a few papers related to real-time EEG analysis today.
 Trying to better understand how researchers handle noisy brainwave patterns.
 
+
+
+---
+
+### Daily Update (2026-05-26 00:26:40 IST)
+
+Worked on understanding temporal dependencies in brainwave pattern recognition.
+Sequential EEG patterns seem more important than expected.
+
