@@ -465,3 +465,12 @@ Trying to better understand how researchers handle noisy brainwave patterns.
 Worked on understanding temporal dependencies in brainwave pattern recognition.
 Sequential EEG patterns seem more important than expected.
 
+
+
+---
+
+### Daily Update (2026-05-26 01:53:40 IST)
+
+Spent time evaluating model robustness in visual stimulus decoding from EEG.
+Trying to prevent performance drops on unseen EEG sessions.
+
