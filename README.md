@@ -474,3 +474,12 @@ Sequential EEG patterns seem more important than expected.
 Spent time evaluating model robustness in visual stimulus decoding from EEG.
 Trying to prevent performance drops on unseen EEG sessions.
 
+
+
+---
+
+### Daily Update (2026-05-26 02:44:05 IST)
+
+Experimented with hybrid deep learning models for real-time cognitive state monitoring.
+Combining temporal and spatial features looks promising.
+
