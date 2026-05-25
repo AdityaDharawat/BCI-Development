@@ -447,3 +447,12 @@ Trying to improve reliability without overcomplicating the architecture.
 Spent a while debugging issues around EEG-based authentication systems today.
 Realized that preprocessing quality changes the model output more than expected.
 
+
+
+---
+
+### Daily Update (2026-05-25 13:14:34 IST)
+
+Read a few papers related to real-time EEG analysis today.
+Trying to better understand how researchers handle noisy brainwave patterns.
+
