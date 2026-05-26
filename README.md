@@ -501,3 +501,12 @@ Some bands seem much more informative than others.
 Worked on understanding temporal dependencies in neural feature extraction.
 Sequential EEG patterns seem more important than expected.
 
+
+
+---
+
+### Daily Update (2026-05-27 00:58:15 IST)
+
+Worked on understanding temporal dependencies in sleep stage classification using EEG.
+Sequential EEG patterns seem more important than expected.
+
