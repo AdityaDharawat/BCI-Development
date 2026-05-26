@@ -483,3 +483,12 @@ Trying to prevent performance drops on unseen EEG sessions.
 Experimented with hybrid deep learning models for real-time cognitive state monitoring.
 Combining temporal and spatial features looks promising.
 
+
+
+---
+
+### Daily Update (2026-05-26 09:39:53 IST)
+
+Experimented with different EEG frequency bands for multimodal neural signal processing.
+Some bands seem much more informative than others.
+
