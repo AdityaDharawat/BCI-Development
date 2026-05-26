@@ -510,3 +510,12 @@ Sequential EEG patterns seem more important than expected.
 Worked on understanding temporal dependencies in sleep stage classification using EEG.
 Sequential EEG patterns seem more important than expected.
 
+
+
+---
+
+### Daily Update (2026-05-27 02:26:56 IST)
+
+Focused on reducing false predictions in EEG-based authentication systems.
+Trying to improve stability during noisy recording sessions.
+
