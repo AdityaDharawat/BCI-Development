@@ -492,3 +492,12 @@ Combining temporal and spatial features looks promising.
 Experimented with different EEG frequency bands for multimodal neural signal processing.
 Some bands seem much more informative than others.
 
+
+
+---
+
+### Daily Update (2026-05-26 20:58:31 IST)
+
+Worked on understanding temporal dependencies in neural feature extraction.
+Sequential EEG patterns seem more important than expected.
+
