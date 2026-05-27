@@ -546,3 +546,12 @@ Interesting to see which signal regions influence predictions most.
 Worked on balancing preprocessing speed and accuracy for transfer learning in EEG classification.
 Trying to keep the pipeline efficient for live EEG streams.
 
+
+
+---
+
+### Daily Update (2026-05-28 02:32:51 IST)
+
+Spent time improving preprocessing automation for visual stimulus decoding from EEG.
+Reducing manual tuning is becoming increasingly important.
+
