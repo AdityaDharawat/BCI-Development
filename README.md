@@ -528,3 +528,12 @@ Trying to improve stability during noisy recording sessions.
 Worked on making the real-time EEG analysis pipeline more adaptive.
 Signal variability between sessions is still a challenge.
 
+
+
+---
+
+### Daily Update (2026-05-27 23:26:46 IST)
+
+Analyzed attention maps generated during EEG frequency band analysis.
+Interesting to see which signal regions influence predictions most.
+
