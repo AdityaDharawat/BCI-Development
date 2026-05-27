@@ -537,3 +537,12 @@ Signal variability between sessions is still a challenge.
 Analyzed attention maps generated during EEG frequency band analysis.
 Interesting to see which signal regions influence predictions most.
 
+
+
+---
+
+### Daily Update (2026-05-28 00:32:40 IST)
+
+Worked on balancing preprocessing speed and accuracy for transfer learning in EEG classification.
+Trying to keep the pipeline efficient for live EEG streams.
+
