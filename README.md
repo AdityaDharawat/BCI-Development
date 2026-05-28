@@ -573,3 +573,12 @@ Trying to better understand how researchers handle noisy brainwave patterns.
 Experimented with transfer learning ideas for emotion recognition using EEG.
 Pretrained models might help with limited EEG datasets.
 
+
+
+---
+
+### Daily Update (2026-05-29 02:40:53 IST)
+
+Read about recent deep learning techniques for EEG frequency band analysis.
+Trying to simplify the architecture while keeping performance stable.
+
