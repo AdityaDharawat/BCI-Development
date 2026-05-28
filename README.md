@@ -555,3 +555,12 @@ Trying to keep the pipeline efficient for live EEG streams.
 Spent time improving preprocessing automation for visual stimulus decoding from EEG.
 Reducing manual tuning is becoming increasingly important.
 
+
+
+---
+
+### Daily Update (2026-05-28 09:09:53 IST)
+
+Read a few papers related to reinforcement learning for adaptive BCI today.
+Trying to better understand how researchers handle noisy brainwave patterns.
+
