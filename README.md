@@ -591,3 +591,12 @@ Trying to simplify the architecture while keeping performance stable.
 Tested different window sizes for attention detection models today.
 Some shorter EEG intervals are surprisingly informative.
 
+
+
+---
+
+### Daily Update (2026-05-29 22:54:39 IST)
+
+Tested different window sizes for self-supervised learning for EEG today.
+Some shorter EEG intervals are surprisingly informative.
+
