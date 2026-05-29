@@ -600,3 +600,12 @@ Some shorter EEG intervals are surprisingly informative.
 Tested different window sizes for self-supervised learning for EEG today.
 Some shorter EEG intervals are surprisingly informative.
 
+
+
+---
+
+### Daily Update (2026-05-30 02:40:00 IST)
+
+Improved the data augmentation setup for cross-subject EEG generalization.
+Synthetic variations are helping increase training diversity.
+
