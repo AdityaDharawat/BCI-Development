@@ -582,3 +582,12 @@ Pretrained models might help with limited EEG datasets.
 Read about recent deep learning techniques for EEG frequency band analysis.
 Trying to simplify the architecture while keeping performance stable.
 
+
+
+---
+
+### Daily Update (2026-05-29 06:33:07 IST)
+
+Tested different window sizes for attention detection models today.
+Some shorter EEG intervals are surprisingly informative.
+
