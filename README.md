@@ -645,3 +645,12 @@ The model captures some useful temporal relationships now.
 Spent some time reviewing failed outputs from cross-subject EEG generalization.
 Trying to identify whether the issue is data-related or model-related.
 
+
+
+---
+
+### Daily Update (2026-05-31 01:41:19 IST)
+
+Focused on building a more stable training loop for visual stimulus decoding from EEG.
+Trying to avoid sudden performance fluctuations during optimization.
+
