@@ -609,3 +609,12 @@ Some shorter EEG intervals are surprisingly informative.
 Improved the data augmentation setup for cross-subject EEG generalization.
 Synthetic variations are helping increase training diversity.
 
+
+
+---
+
+### Daily Update (2026-05-30 06:43:51 IST)
+
+Worked on understanding feature importance in transfer learning in EEG classification.
+Some extracted patterns appear far more stable across sessions.
+
