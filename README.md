@@ -636,3 +636,12 @@ Trying to prevent performance drops on unseen EEG sessions.
 Analyzed how attention layers affect hybrid BCI systems.
 The model captures some useful temporal relationships now.
 
+
+
+---
+
+### Daily Update (2026-05-31 00:20:05 IST)
+
+Spent some time reviewing failed outputs from cross-subject EEG generalization.
+Trying to identify whether the issue is data-related or model-related.
+
