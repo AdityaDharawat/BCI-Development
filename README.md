@@ -627,3 +627,12 @@ Some extracted patterns appear far more stable across sessions.
 Spent time evaluating model robustness in spatio-temporal EEG modeling.
 Trying to prevent performance drops on unseen EEG sessions.
 
+
+
+---
+
+### Daily Update (2026-05-30 16:56:26 IST)
+
+Analyzed how attention layers affect hybrid BCI systems.
+The model captures some useful temporal relationships now.
+
