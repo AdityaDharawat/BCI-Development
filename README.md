@@ -618,3 +618,12 @@ Synthetic variations are helping increase training diversity.
 Worked on understanding feature importance in transfer learning in EEG classification.
 Some extracted patterns appear far more stable across sessions.
 
+
+
+---
+
+### Daily Update (2026-05-30 09:17:10 IST)
+
+Spent time evaluating model robustness in spatio-temporal EEG modeling.
+Trying to prevent performance drops on unseen EEG sessions.
+
