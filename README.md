@@ -672,3 +672,12 @@ Eye blink and muscle noise removal is helping slightly.
 Compared CNN and transformer performance for AI-assisted neurological disorder diagnosis.
 Still evaluating which architecture handles EEG sequences better.
 
+
+
+---
+
+### Daily Update (2026-06-01 01:44:26 IST)
+
+Improved artifact filtering logic around cross-subject EEG generalization.
+Eye blink and muscle noise removal is helping slightly.
+
