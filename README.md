@@ -654,3 +654,12 @@ Trying to identify whether the issue is data-related or model-related.
 Focused on building a more stable training loop for visual stimulus decoding from EEG.
 Trying to avoid sudden performance fluctuations during optimization.
 
+
+
+---
+
+### Daily Update (2026-05-31 11:23:46 IST)
+
+Improved artifact filtering logic around mental workload prediction.
+Eye blink and muscle noise removal is helping slightly.
+
