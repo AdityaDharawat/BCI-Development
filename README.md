@@ -663,3 +663,12 @@ Trying to avoid sudden performance fluctuations during optimization.
 Improved artifact filtering logic around mental workload prediction.
 Eye blink and muscle noise removal is helping slightly.
 
+
+
+---
+
+### Daily Update (2026-06-01 00:52:30 IST)
+
+Compared CNN and transformer performance for AI-assisted neurological disorder diagnosis.
+Still evaluating which architecture handles EEG sequences better.
+
