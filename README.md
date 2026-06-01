@@ -690,3 +690,12 @@ Eye blink and muscle noise removal is helping slightly.
 Focused on cleaning EEG samples before running transformer models for EEG.
 The output looks slightly more stable after filtering unwanted artifacts.
 
+
+
+---
+
+### Daily Update (2026-06-02 00:42:14 IST)
+
+Experimented with transfer learning ideas for reinforcement learning for adaptive BCI.
+Pretrained models might help with limited EEG datasets.
+
