@@ -681,3 +681,12 @@ Still evaluating which architecture handles EEG sequences better.
 Improved artifact filtering logic around cross-subject EEG generalization.
 Eye blink and muscle noise removal is helping slightly.
 
+
+
+---
+
+### Daily Update (2026-06-01 09:29:08 IST)
+
+Focused on cleaning EEG samples before running transformer models for EEG.
+The output looks slightly more stable after filtering unwanted artifacts.
+
