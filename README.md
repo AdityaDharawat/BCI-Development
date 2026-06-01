@@ -699,3 +699,12 @@ The output looks slightly more stable after filtering unwanted artifacts.
 Experimented with transfer learning ideas for reinforcement learning for adaptive BCI.
 Pretrained models might help with limited EEG datasets.
 
+
+
+---
+
+### Daily Update (2026-06-02 03:42:57 IST)
+
+Analyzed how attention layers affect cross-subject EEG generalization.
+The model captures some useful temporal relationships now.
+
