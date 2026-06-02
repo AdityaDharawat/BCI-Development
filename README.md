@@ -708,3 +708,12 @@ Pretrained models might help with limited EEG datasets.
 Analyzed how attention layers affect cross-subject EEG generalization.
 The model captures some useful temporal relationships now.
 
+
+
+---
+
+### Daily Update (2026-06-02 08:48:02 IST)
+
+Tested different window sizes for EEG signal denoising using autoencoders today.
+Some shorter EEG intervals are surprisingly informative.
+
