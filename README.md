@@ -34,7 +34,7 @@ NeuroVisionAI is a modern brain MRI tumor classification web application designe
 ### AI / ML
 - TensorFlow.js
 - Vision Transformer Pipeline
-- EEG/BCI Research Simulation Logs
+- MRI/BCI Research Simulation Logs
 
 ### Utilities
 - Python
@@ -174,7 +174,7 @@ The current system preserves the Vision Transformer preprocessing pipeline while
 
 Current areas of experimentation include:
 
-* EEG signal preprocessing
+* MRI signal preprocessing
 * Transfer learning workflows
 * Transformer-based signal understanding
 * Feature extraction optimization
@@ -212,7 +212,7 @@ ai_update.py
 * Real production model weight loading
 * Persistent database integration
 * DICOM parsing support
-* Real-time EEG stream processing
+* Real-time MRI stream processing
 * Distributed inference optimization
 * Automated evaluation benchmarking
 * Voice-agent integration with Swady AI
@@ -234,14 +234,14 @@ Trying to structure the research logs in a cleaner way.
 
 ### Daily Update (2026-05-17 20:05:58)
 
-Read more about EEG preprocessing pipelines today.
+Read more about MRI preprocessing pipelines today.
 Interesting how tiny signal artifacts affect model consistency.
 
 ---
 
 ### Daily Update (2026-05-18 11:35:17)
 
-Spent time understanding transformer attention flow for EEG sequences.
+Spent time understanding transformer attention flow for MRI sequences.
 Still experimenting with better feature extraction approaches.
 
 ---
@@ -256,7 +256,7 @@ Learning how normalization impacts prediction confidence.
 ### Daily Update (2026-05-18 19:56:31)
 
 Looked deeper into transfer learning approaches for BCI systems.
-Trying to understand how pretrained embeddings behave on EEG data.
+Trying to understand how pretrained embeddings behave on MRI data.
 
 ---
 
@@ -277,7 +277,7 @@ Trying to make prediction outputs more consistent.
 ### Daily Update (2026-05-19 19:53:08)
 
 Spent some time analyzing feature extraction bottlenecks.
-Still learning how EEG frequency bands impact classification.
+Still learning how MRI frequency bands impact classification.
 
 ---
 
@@ -291,7 +291,7 @@ Observed slightly better stability during inference runs.
 ### Daily Update (2026-05-20 13:58:55)
 
 Looked into transformer-based temporal attention mechanisms today.
-Trying to understand how sequence learning affects EEG interpretation.
+Trying to understand how sequence learning affects MRI interpretation.
 
 ---
 
@@ -332,7 +332,7 @@ Interesting balance between speed and signal quality.
 
 ### Daily Update (2026-05-22 09:32:23)
 
-Spent some time observing model behavior on noisy EEG segments.
+Spent some time observing model behavior on noisy MRI segments.
 Trying to improve robustness without increasing latency too much.
 
 ---
@@ -353,7 +353,7 @@ Trying to reduce unstable outputs during repeated testing.
 
 ### Daily Update (2026-05-23 10:05:32)
 
-Read more about transformer optimization strategies for EEG systems.
+Read more about transformer optimization strategies for MRI systems.
 Interesting to see how attention layers capture signal relationships.
 
 ---
@@ -381,14 +381,14 @@ Trying to reduce unnecessary computation overhead.
 
 ### Daily Update (2026-05-24 05:36:13)
 
-Read more about temporal EEG feature mapping techniques today.
+Read more about temporal MRI feature mapping techniques today.
 Interesting to compare different transformer embedding approaches.
 
 ---
 
 ### Daily Update (2026-05-24 07:32:50)
 
-Investigated transfer learning behavior on small EEG batches.
+Investigated transfer learning behavior on small MRI batches.
 Trying to understand how pretrained representations generalize.
 
 ---
@@ -402,7 +402,7 @@ Still experimenting with cleaner signal interpretation methods.
 
 ### Daily Update (2026-05-24 07:44:13)
 
-Experimented with a different approach for transformer models for EEG today.
+Experimented with a different approach for transformer models for MRI today.
 Still learning how small signal variations affect predictions.
 
 ---
@@ -427,7 +427,7 @@ Going deeper into optimizing feature extraction and model stability.
 ### Daily Update (2026-05-24 19:24:36)
 
 Worked on improving the logic around motor imagery decoding today.
-Learning a few better ways to handle EEG feature noise.
+Learning a few better ways to handle MRI feature noise.
 
 
 
@@ -435,7 +435,7 @@ Learning a few better ways to handle EEG feature noise.
 
 ### Daily Update (2026-05-25 01:02:53 IST)
 
-Spent time optimizing the model flow for EEG-based fatigue detection.
+Spent time optimizing the model flow for MRI-based fatigue detection.
 Trying to improve reliability without overcomplicating the architecture.
 
 
@@ -444,7 +444,7 @@ Trying to improve reliability without overcomplicating the architecture.
 
 ### Daily Update (2026-05-25 01:38:46 IST)
 
-Spent a while debugging issues around EEG-based authentication systems today.
+Spent a while debugging issues around MRI-based authentication systems today.
 Realized that preprocessing quality changes the model output more than expected.
 
 
@@ -453,7 +453,7 @@ Realized that preprocessing quality changes the model output more than expected.
 
 ### Daily Update (2026-05-25 13:14:34 IST)
 
-Read a few papers related to real-time EEG analysis today.
+Read a few papers related to real-time MRI analysis today.
 Trying to better understand how researchers handle noisy brainwave patterns.
 
 
@@ -463,7 +463,7 @@ Trying to better understand how researchers handle noisy brainwave patterns.
 ### Daily Update (2026-05-26 00:26:40 IST)
 
 Worked on understanding temporal dependencies in brainwave pattern recognition.
-Sequential EEG patterns seem more important than expected.
+Sequential MRI patterns seem more important than expected.
 
 
 
@@ -471,8 +471,8 @@ Sequential EEG patterns seem more important than expected.
 
 ### Daily Update (2026-05-26 01:53:40 IST)
 
-Spent time evaluating model robustness in visual stimulus decoding from EEG.
-Trying to prevent performance drops on unseen EEG sessions.
+Spent time evaluating model robustness in visual stimulus decoding from MRI.
+Trying to prevent performance drops on unseen MRI sessions.
 
 
 
@@ -489,7 +489,7 @@ Combining temporal and spatial features looks promising.
 
 ### Daily Update (2026-05-26 09:39:53 IST)
 
-Experimented with different EEG frequency bands for multimodal neural signal processing.
+Experimented with different MRI frequency bands for multimodal neural signal processing.
 Some bands seem much more informative than others.
 
 
@@ -499,7 +499,7 @@ Some bands seem much more informative than others.
 ### Daily Update (2026-05-26 20:58:31 IST)
 
 Worked on understanding temporal dependencies in neural feature extraction.
-Sequential EEG patterns seem more important than expected.
+Sequential MRI patterns seem more important than expected.
 
 
 
@@ -507,8 +507,8 @@ Sequential EEG patterns seem more important than expected.
 
 ### Daily Update (2026-05-27 00:58:15 IST)
 
-Worked on understanding temporal dependencies in sleep stage classification using EEG.
-Sequential EEG patterns seem more important than expected.
+Worked on understanding temporal dependencies in sleep stage classification using MRI.
+Sequential MRI patterns seem more important than expected.
 
 
 
@@ -516,7 +516,7 @@ Sequential EEG patterns seem more important than expected.
 
 ### Daily Update (2026-05-27 02:26:56 IST)
 
-Focused on reducing false predictions in EEG-based authentication systems.
+Focused on reducing false predictions in MRI-based authentication systems.
 Trying to improve stability during noisy recording sessions.
 
 
@@ -525,7 +525,7 @@ Trying to improve stability during noisy recording sessions.
 
 ### Daily Update (2026-05-27 09:29:20 IST)
 
-Worked on making the real-time EEG analysis pipeline more adaptive.
+Worked on making the real-time MRI analysis pipeline more adaptive.
 Signal variability between sessions is still a challenge.
 
 
@@ -534,7 +534,7 @@ Signal variability between sessions is still a challenge.
 
 ### Daily Update (2026-05-27 23:26:46 IST)
 
-Analyzed attention maps generated during EEG frequency band analysis.
+Analyzed attention maps generated during MRI frequency band analysis.
 Interesting to see which signal regions influence predictions most.
 
 
@@ -543,8 +543,8 @@ Interesting to see which signal regions influence predictions most.
 
 ### Daily Update (2026-05-28 00:32:40 IST)
 
-Worked on balancing preprocessing speed and accuracy for transfer learning in EEG classification.
-Trying to keep the pipeline efficient for live EEG streams.
+Worked on balancing preprocessing speed and accuracy for transfer learning in MRI classification.
+Trying to keep the pipeline efficient for live MRI streams.
 
 
 
@@ -552,7 +552,7 @@ Trying to keep the pipeline efficient for live EEG streams.
 
 ### Daily Update (2026-05-28 02:32:51 IST)
 
-Spent time improving preprocessing automation for visual stimulus decoding from EEG.
+Spent time improving preprocessing automation for visual stimulus decoding from MRI.
 Reducing manual tuning is becoming increasingly important.
 
 
@@ -570,8 +570,8 @@ Trying to better understand how researchers handle noisy brainwave patterns.
 
 ### Daily Update (2026-05-29 00:45:35 IST)
 
-Experimented with transfer learning ideas for emotion recognition using EEG.
-Pretrained models might help with limited EEG datasets.
+Experimented with transfer learning ideas for emotion recognition using MRI.
+Pretrained models might help with limited MRI datasets.
 
 
 
@@ -579,7 +579,7 @@ Pretrained models might help with limited EEG datasets.
 
 ### Daily Update (2026-05-29 02:40:53 IST)
 
-Read about recent deep learning techniques for EEG frequency band analysis.
+Read about recent deep learning techniques for MRI frequency band analysis.
 Trying to simplify the architecture while keeping performance stable.
 
 
@@ -589,7 +589,7 @@ Trying to simplify the architecture while keeping performance stable.
 ### Daily Update (2026-05-29 06:33:07 IST)
 
 Tested different window sizes for attention detection models today.
-Some shorter EEG intervals are surprisingly informative.
+Some shorter MRI intervals are surprisingly informative.
 
 
 
@@ -597,8 +597,8 @@ Some shorter EEG intervals are surprisingly informative.
 
 ### Daily Update (2026-05-29 22:54:39 IST)
 
-Tested different window sizes for self-supervised learning for EEG today.
-Some shorter EEG intervals are surprisingly informative.
+Tested different window sizes for self-supervised learning for MRI today.
+Some shorter MRI intervals are surprisingly informative.
 
 
 
@@ -606,7 +606,7 @@ Some shorter EEG intervals are surprisingly informative.
 
 ### Daily Update (2026-05-30 02:40:00 IST)
 
-Improved the data augmentation setup for cross-subject EEG generalization.
+Improved the data augmentation setup for cross-subject MRI generalization.
 Synthetic variations are helping increase training diversity.
 
 
@@ -615,7 +615,7 @@ Synthetic variations are helping increase training diversity.
 
 ### Daily Update (2026-05-30 06:43:51 IST)
 
-Worked on understanding feature importance in transfer learning in EEG classification.
+Worked on understanding feature importance in transfer learning in MRI classification.
 Some extracted patterns appear far more stable across sessions.
 
 
@@ -624,8 +624,8 @@ Some extracted patterns appear far more stable across sessions.
 
 ### Daily Update (2026-05-30 09:17:10 IST)
 
-Spent time evaluating model robustness in spatio-temporal EEG modeling.
-Trying to prevent performance drops on unseen EEG sessions.
+Spent time evaluating model robustness in spatio-temporal MRI modeling.
+Trying to prevent performance drops on unseen MRI sessions.
 
 
 
@@ -642,7 +642,7 @@ The model captures some useful temporal relationships now.
 
 ### Daily Update (2026-05-31 00:20:05 IST)
 
-Spent some time reviewing failed outputs from cross-subject EEG generalization.
+Spent some time reviewing failed outputs from cross-subject MRI generalization.
 Trying to identify whether the issue is data-related or model-related.
 
 
@@ -651,7 +651,7 @@ Trying to identify whether the issue is data-related or model-related.
 
 ### Daily Update (2026-05-31 01:41:19 IST)
 
-Focused on building a more stable training loop for visual stimulus decoding from EEG.
+Focused on building a more stable training loop for visual stimulus decoding from MRI.
 Trying to avoid sudden performance fluctuations during optimization.
 
 
@@ -670,7 +670,7 @@ Eye blink and muscle noise removal is helping slightly.
 ### Daily Update (2026-06-01 00:52:30 IST)
 
 Compared CNN and transformer performance for AI-assisted neurological disorder diagnosis.
-Still evaluating which architecture handles EEG sequences better.
+Still evaluating which architecture handles MRI sequences better.
 
 
 
@@ -678,7 +678,7 @@ Still evaluating which architecture handles EEG sequences better.
 
 ### Daily Update (2026-06-01 01:44:26 IST)
 
-Improved artifact filtering logic around cross-subject EEG generalization.
+Improved artifact filtering logic around cross-subject MRI generalization.
 Eye blink and muscle noise removal is helping slightly.
 
 
@@ -687,7 +687,7 @@ Eye blink and muscle noise removal is helping slightly.
 
 ### Daily Update (2026-06-01 09:29:08 IST)
 
-Focused on cleaning EEG samples before running transformer models for EEG.
+Focused on cleaning MRI samples before running transformer models for MRI.
 The output looks slightly more stable after filtering unwanted artifacts.
 
 
@@ -697,7 +697,7 @@ The output looks slightly more stable after filtering unwanted artifacts.
 ### Daily Update (2026-06-02 00:42:14 IST)
 
 Experimented with transfer learning ideas for reinforcement learning for adaptive BCI.
-Pretrained models might help with limited EEG datasets.
+Pretrained models might help with limited MRI datasets.
 
 
 
@@ -705,7 +705,7 @@ Pretrained models might help with limited EEG datasets.
 
 ### Daily Update (2026-06-02 03:42:57 IST)
 
-Analyzed how attention layers affect cross-subject EEG generalization.
+Analyzed how attention layers affect cross-subject MRI generalization.
 The model captures some useful temporal relationships now.
 
 
@@ -714,8 +714,8 @@ The model captures some useful temporal relationships now.
 
 ### Daily Update (2026-06-02 08:48:02 IST)
 
-Tested different window sizes for EEG signal denoising using autoencoders today.
-Some shorter EEG intervals are surprisingly informative.
+Tested different window sizes for MRI signal denoising using autoencoders today.
+Some shorter MRI intervals are surprisingly informative.
 
 
 
