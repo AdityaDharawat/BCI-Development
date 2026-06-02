@@ -14,48 +14,48 @@ headers = {
 }
 
 research_topics = [
-    "EEG signal preprocessing",
-    "brain signal classification",
-    "motor imagery decoding",
-    "deep learning for BCI",
-    "real-time EEG analysis",
-    "transformer models for EEG",
-    "noise reduction in EEG signals",
-    "emotion recognition using EEG",
-    "neural feature extraction",
-    "adaptive BCI interfaces",
-    "attention detection models",
-    "cognitive load estimation",
-    "EEG artifact removal",
-    "brain-computer interface optimization",
-    "multimodal neural signal processing",
-    "EEG-based authentication systems",
-    "sleep stage classification using EEG",
-    "epileptic seizure detection",
-    "EEG signal augmentation techniques",
-    "self-supervised learning for EEG",
-    "graph neural networks for EEG",
-    "EEG channel selection methods",
-    "cross-subject EEG generalization",
-    "few-shot learning for brain signals",
-    "EEG emotion dataset analysis",
-    "brain connectivity analysis",
-    "neurofeedback systems",
-    "spatio-temporal EEG modeling",
-    "EEG frequency band analysis",
-    "hybrid BCI systems",
-    "EEG signal denoising using autoencoders",
-    "federated learning for EEG data",
-    "real-time cognitive state monitoring",
-    "transfer learning in EEG classification",
-    "EEG-based fatigue detection",
-    "reinforcement learning for adaptive BCI",
-    "visual stimulus decoding from EEG",
-    "speech recognition using brain signals",
-    "EEG-driven robotic control",
-    "mental workload prediction",
-    "AI-assisted neurological disorder diagnosis",
-    "brainwave pattern recognition"
+    "brain MRI preprocessing techniques",
+    "MRI image normalization methods",
+    "bias field correction in MRI scans",
+    "skull stripping for brain MRI",
+    "MRI image denoising techniques",
+    "intensity standardization in MRI",
+    "brain tumor classification using MRI",
+    "healthy vs tumor MRI classification",
+    "glioma detection from MRI scans",
+    "brain tumor segmentation methods",
+    "MRI tumor localization techniques",
+    "deep learning for brain tumor diagnosis",
+    "convolutional neural networks for MRI classification",
+    "transformer models for brain MRI analysis",
+    "multimodal MRI tumor classification",
+    "radiomics feature extraction from MRI",
+    "MRI feature engineering for tumor detection",
+    "3D MRI image analysis",
+    "volumetric tumor assessment",
+    "MRI cohort-based tumor studies",
+    "cross-cohort MRI classification",
+    "multi-center MRI dataset harmonization",
+    "class imbalance handling in MRI datasets",
+    "data augmentation for brain MRI",
+    "synthetic MRI generation for tumor detection",
+    "transfer learning for brain tumor classification",
+    "self-supervised learning on MRI scans",
+    "few-shot learning for MRI tumor recognition",
+    "explainable AI for brain tumor diagnosis",
+    "attention mechanisms in MRI classification",
+    "MRI image registration techniques",
+    "tumor grading using MRI scans",
+    "benign vs malignant tumor classification",
+    "automated brain abnormality detection",
+    "tumor progression prediction using MRI",
+    "survival prediction from brain MRI",
+    "brain lesion detection and classification",
+    "medical image segmentation with U-Net",
+    "3D U-Net for brain tumor segmentation",
+    "Vision Transformers for MRI analysis",
+    "ensemble models for tumor classification",
+    "clinical MRI dataset analysis"
 ]
 
 selected_topic = random.choice(research_topics)
@@ -92,105 +92,105 @@ data = {
 }
 
 fallback_updates = [
-    f"Spent a while debugging issues around {selected_topic} today.\nRealized that preprocessing quality changes the model output more than expected.",
+    f"Reviewed recent methodologies in {selected_topic} today.\nNoticed several studies emphasize preprocessing consistency before model training.",
 
-    f"Tried refining the workflow for {selected_topic}.\nStill experimenting with ways to reduce unstable EEG predictions.",
+    f"Spent time investigating challenges related to {selected_topic}.\nDifferences in MRI acquisition protocols appear to affect downstream results.",
 
-    f"Worked on improving consistency in {selected_topic}.\nSmall noise spikes are still affecting the final classification accuracy.",
+    f"Analyzed a subset of scans for {selected_topic}.\nObserved that image quality variations can influence feature extraction reliability.",
 
-    f"Read a few papers related to {selected_topic} today.\nTrying to better understand how researchers handle noisy brainwave patterns.",
+    f"Read multiple research papers connected to {selected_topic}.\nMany approaches rely heavily on robust preprocessing before classification.",
 
-    f"Experimented with feature extraction methods for {selected_topic}.\nSome combinations seem promising for improving signal clarity.",
+    f"Explored how dataset characteristics impact {selected_topic}.\nClass distribution and cohort diversity seem important for evaluation.",
 
-    f"Focused on cleaning EEG samples before running {selected_topic}.\nThe output looks slightly more stable after filtering unwanted artifacts.",
+    f"Examined preprocessing outputs associated with {selected_topic}.\nNormalization appears to improve consistency across different MRI studies.",
 
-    f"Tested multiple preprocessing strategies for {selected_topic}.\nLearning how sensitive EEG pipelines are to signal quality.",
+    f"Compared several techniques used in {selected_topic}.\nEach method presents trade-offs between accuracy, complexity, and interpretability.",
 
-    f"Spent time optimizing the model flow for {selected_topic}.\nTrying to improve reliability without overcomplicating the architecture.",
+    f"Focused on understanding the workflow behind {selected_topic}.\nData preparation remains a critical step before model development.",
 
-    f"Compared different neural network approaches for {selected_topic}.\nInteresting to see how each model reacts to subtle EEG variations.",
+    f"Investigated recent developments related to {selected_topic}.\nTransformer-based approaches are becoming more common in medical imaging research.",
 
-    f"Worked on reducing signal distortion during {selected_topic} analysis.\nStill tuning the balance between smoothing and preserving useful information.",
+    f"Reviewed examples of clinical applications involving {selected_topic}.\nPractical deployment often requires extensive validation across cohorts.",
 
-    f"Looked deeper into feature stability for {selected_topic} today.\nEven small preprocessing tweaks create noticeable prediction differences.",
+    f"Analyzed feature extraction strategies used for {selected_topic}.\nCertain image-derived features appear more robust across datasets.",
 
-    f"Explored some transformer-based ideas for {selected_topic}.\nTrying to see whether temporal attention improves EEG understanding.",
+    f"Looked into common challenges encountered during {selected_topic}.\nData heterogeneity remains a recurring issue in published studies.",
 
-    f"Improved part of the preprocessing pipeline for {selected_topic}.\nThe cleaner inputs are giving slightly more consistent outputs now.",
+    f"Spent time understanding evaluation metrics for {selected_topic}.\nDifferent metrics can highlight different aspects of model performance.",
 
-    f"Spent time analyzing edge cases in {selected_topic}.\nCertain EEG segments behave unpredictably and need better handling.",
+    f"Explored the impact of preprocessing choices on {selected_topic}.\nEven small modifications may influence downstream predictions.",
 
-    f"Experimented with different EEG frequency bands for {selected_topic}.\nSome bands seem much more informative than others.",
+    f"Reviewed open-source implementations related to {selected_topic}.\nInteresting differences exist between academic and production pipelines.",
 
-    f"Focused on model generalization for {selected_topic} today.\nTrying to avoid overfitting on limited EEG samples.",
+    f"Examined cohort composition for {selected_topic}.\nBalanced representation may help improve generalization outcomes.",
 
-    f"Worked on making the {selected_topic} pipeline more adaptive.\nSignal variability between sessions is still a challenge.",
+    f"Compared traditional machine learning and deep learning methods for {selected_topic}.\nPerformance differences often depend on dataset size and quality.",
 
-    f"Read about recent deep learning techniques for {selected_topic}.\nTrying to simplify the architecture while keeping performance stable.",
+    f"Focused on reproducibility concerns surrounding {selected_topic}.\nConsistent preprocessing protocols appear essential for reliable results.",
 
-    f"Investigated why some predictions fail during {selected_topic} testing.\nMost issues seem connected to inconsistent preprocessing steps.",
+    f"Investigated data augmentation practices used in {selected_topic}.\nSeveral studies report improvements when training diversity is increased.",
 
-    f"Spent time tuning hyperparameters for {selected_topic}.\nMinor adjustments are surprisingly affecting EEG classification confidence.",
+    f"Read about explainability techniques associated with {selected_topic}.\nUnderstanding model decisions remains important for medical applications.",
 
-    f"Experimented with temporal signal segmentation for {selected_topic}.\nTrying to capture cleaner patterns from shorter EEG windows.",
+    f"Analyzed segmentation approaches relevant to {selected_topic}.\nAccurate region identification often improves downstream classification tasks.",
 
-    f"Improved artifact filtering logic around {selected_topic}.\nEye blink and muscle noise removal is helping slightly.",
+    f"Explored transfer learning strategies for {selected_topic}.\nPretrained models may help when labeled MRI data is limited.",
 
-    f"Worked on understanding feature importance in {selected_topic}.\nSome extracted patterns appear far more stable across sessions.",
+    f"Reviewed recent benchmark studies connected to {selected_topic}.\nCross-dataset evaluation is frequently used to assess robustness.",
 
-    f"Compared CNN and transformer performance for {selected_topic}.\nStill evaluating which architecture handles EEG sequences better.",
+    f"Investigated image registration workflows related to {selected_topic}.\nAlignment quality appears important for comparative analysis.",
 
-    f"Focused on reducing training instability for {selected_topic}.\nTrying to make convergence smoother with noisy EEG inputs.",
+    f"Examined feature stability across multiple cohorts in {selected_topic}.\nSome representations appear more transferable than others.",
 
-    f"Explored adaptive normalization techniques for {selected_topic}.\nInteresting results so far with dynamic signal scaling.",
+    f"Looked into automated quality control methods for {selected_topic}.\nEarly detection of problematic scans may reduce downstream errors.",
 
-    f"Spent some time reviewing failed outputs from {selected_topic}.\nTrying to identify whether the issue is data-related or model-related.",
+    f"Studied recent advances in medical image segmentation for {selected_topic}.\nSeveral architectures focus on preserving fine structural details.",
 
-    f"Worked on refining EEG feature selection for {selected_topic}.\nRemoving redundant channels seems to improve consistency a bit.",
+    f"Analyzed model validation procedures used in {selected_topic}.\nIndependent testing cohorts are commonly recommended.",
 
-    f"Experimented with lightweight architectures for {selected_topic}.\nTrying to make the pipeline more efficient for real-time use.",
+    f"Compared different MRI preprocessing pipelines related to {selected_topic}.\nStandardization remains a key theme across studies.",
 
-    f"Read more about cross-subject variability in {selected_topic}.\nGeneralizing across different EEG recordings is still difficult.",
+    f"Reviewed literature discussing dataset harmonization for {selected_topic}.\nReducing scanner-specific variation could improve generalization.",
 
-    f"Focused on improving prediction confidence for {selected_topic}.\nTrying to reduce uncertain outputs caused by noisy signals.",
+    f"Examined approaches for handling class imbalance in {selected_topic}.\nSampling strategies continue to be widely adopted.",
 
-    f"Tested different filtering frequencies for {selected_topic}.\nInteresting how small frequency shifts impact model behavior.",
+    f"Spent time understanding annotation practices used in {selected_topic}.\nLabel quality can significantly affect training outcomes.",
 
-    f"Worked on understanding temporal dependencies in {selected_topic}.\nSequential EEG patterns seem more important than expected.",
+    f"Explored volumetric analysis methods associated with {selected_topic}.\nThree-dimensional information provides additional clinical context.",
 
-    f"Improved the data augmentation setup for {selected_topic}.\nSynthetic variations are helping increase training diversity.",
+    f"Investigated multimodal approaches linked to {selected_topic}.\nCombining complementary MRI sequences may enhance performance.",
 
-    f"Spent time evaluating model robustness in {selected_topic}.\nTrying to prevent performance drops on unseen EEG sessions.",
+    f"Reviewed recent publications involving {selected_topic}.\nMany studies focus on improving robustness across institutions.",
 
-    f"Analyzed how attention layers affect {selected_topic}.\nThe model captures some useful temporal relationships now.",
+    f"Analyzed common sources of variability affecting {selected_topic}.\nScanner settings and acquisition parameters remain influential factors.",
 
-    f"Experimented with noise suppression techniques for {selected_topic}.\nCleaner inputs are slowly improving classification reliability.",
+    f"Compared feature extraction pipelines used in {selected_topic}.\nSome methods prioritize interpretability over predictive performance.",
 
-    f"Worked on balancing preprocessing speed and accuracy for {selected_topic}.\nTrying to keep the pipeline efficient for live EEG streams.",
+    f"Examined current challenges surrounding {selected_topic}.\nGeneralization across unseen cohorts remains an active research area.",
 
-    f"Looked into feature drift issues during {selected_topic} testing.\nSignal distributions change more often than expected.",
+    f"Studied evaluation protocols commonly applied to {selected_topic}.\nCross-validation strategies vary substantially between studies.",
 
-    f"Improved the training dataset organization for {selected_topic}.\nCleaner labeling is making debugging much easier.",
+    f"Reviewed advances in 3D deep learning relevant to {selected_topic}.\nVolumetric models continue to show promising results.",
 
-    f"Tested different window sizes for {selected_topic} today.\nSome shorter EEG intervals are surprisingly informative.",
+    f"Explored methods for reducing preprocessing variability in {selected_topic}.\nStandard workflows may improve reproducibility.",
 
-    f"Focused on reducing false predictions in {selected_topic}.\nTrying to improve stability during noisy recording sessions.",
+    f"Analyzed segmentation outputs associated with {selected_topic}.\nBoundary precision appears important for downstream analysis.",
 
-    f"Experimented with hybrid deep learning models for {selected_topic}.\nCombining temporal and spatial features looks promising.",
+    f"Investigated feature representation techniques used in {selected_topic}.\nLatent-space learning approaches are gaining popularity.",
 
-    f"Worked on simplifying the feature extraction process for {selected_topic}.\nTrying to keep only the most meaningful EEG patterns.",
+    f"Compared recent architectures applied to {selected_topic}.\nModel complexity does not always translate to better performance.",
 
-    f"Analyzed attention maps generated during {selected_topic}.\nInteresting to see which signal regions influence predictions most.",
+    f"Reviewed research focused on clinical translation of {selected_topic}.\nInterpretability and reliability remain major considerations.",
 
-    f"Read more about adaptive EEG pipelines for {selected_topic}.\nTrying to make the system handle changing signal conditions better.",
+    f"Examined data quality issues impacting {selected_topic}.\nArtifact management continues to be discussed extensively in literature.",
 
-    f"Spent time improving preprocessing automation for {selected_topic}.\nReducing manual tuning is becoming increasingly important.",
+    f"Studied preprocessing recommendations proposed for {selected_topic}.\nSeveral guidelines emphasize consistency across datasets.",
 
-    f"Experimented with transfer learning ideas for {selected_topic}.\nPretrained models might help with limited EEG datasets.",
+    f"Explored cross-cohort evaluation strategies related to {selected_topic}.\nExternal validation is frequently highlighted as best practice.",
 
-    f"Worked on improving feature consistency across sessions for {selected_topic}.\nSignal shifts between recordings remain challenging.",
+    f"Analyzed recent trends shaping {selected_topic}.\nFoundation models and self-supervised approaches are receiving increased attention.",
 
-    f"Focused on building a more stable training loop for {selected_topic}.\nTrying to avoid sudden performance fluctuations during optimization."
+    f"Reviewed the overall research landscape around {selected_topic}.\nThe field continues to move toward more robust and clinically applicable solutions."
 ]
 
 try:
