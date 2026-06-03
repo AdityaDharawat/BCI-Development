@@ -735,3 +735,12 @@ Interpretability and reliability remain major considerations.
 Investigated multimodal approaches linked to explainable AI for brain tumor diagnosis.
 Combining complementary MRI sequences may enhance performance.
 
+
+
+---
+
+### Daily Update (2026-06-03 09:16:27 IST)
+
+Investigated recent developments related to self-supervised learning on MRI scans.
+Transformer-based approaches are becoming more common in medical imaging research.
+
