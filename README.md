@@ -753,3 +753,12 @@ Transformer-based approaches are becoming more common in medical imaging researc
 Focused on understanding the workflow behind brain tumor segmentation methods.
 Data preparation remains a critical step before model development.
 
+
+
+---
+
+### Daily Update (2026-06-04 01:23:35 IST)
+
+Reviewed examples of clinical applications involving 3D U-Net for brain tumor segmentation.
+Practical deployment often requires extensive validation across cohorts.
+
