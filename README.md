@@ -762,3 +762,12 @@ Data preparation remains a critical step before model development.
 Reviewed examples of clinical applications involving 3D U-Net for brain tumor segmentation.
 Practical deployment often requires extensive validation across cohorts.
 
+
+
+---
+
+### Daily Update (2026-06-04 03:22:53 IST)
+
+Compared several techniques used in brain MRI preprocessing techniques.
+Each method presents trade-offs between accuracy, complexity, and interpretability.
+
