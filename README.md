@@ -771,3 +771,12 @@ Practical deployment often requires extensive validation across cohorts.
 Compared several techniques used in brain MRI preprocessing techniques.
 Each method presents trade-offs between accuracy, complexity, and interpretability.
 
+
+
+---
+
+### Daily Update (2026-06-04 06:43:06 IST)
+
+Focused on reproducibility concerns surrounding MRI feature engineering for tumor detection.
+Consistent preprocessing protocols appear essential for reliable results.
+
