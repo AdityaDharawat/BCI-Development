@@ -825,3 +825,12 @@ Three-dimensional information provides additional clinical context.
 Compared traditional machine learning and deep learning methods for clinical MRI dataset analysis.
 Performance differences often depend on dataset size and quality.
 
+
+
+---
+
+### Daily Update (2026-06-06 02:19:03 IST)
+
+Focused on understanding the workflow behind multi-center MRI dataset harmonization.
+Data preparation remains a critical step before model development.
+
