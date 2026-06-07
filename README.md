@@ -870,3 +870,12 @@ Standardization remains a key theme across studies.
 Reviewed the overall research landscape around glioma detection from MRI scans.
 The field continues to move toward more robust and clinically applicable solutions.
 
+
+
+---
+
+### Daily Update (2026-06-07 10:21:46 IST)
+
+Explored methods for reducing preprocessing variability in transformer models for brain MRI analysis.
+Standard workflows may improve reproducibility.
+
