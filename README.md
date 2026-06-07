@@ -879,3 +879,12 @@ The field continues to move toward more robust and clinically applicable solutio
 Explored methods for reducing preprocessing variability in transformer models for brain MRI analysis.
 Standard workflows may improve reproducibility.
 
+
+
+---
+
+### Daily Update (2026-06-08 01:45:20 IST)
+
+Reviewed literature discussing dataset harmonization for brain tumor segmentation methods.
+Reducing scanner-specific variation could improve generalization.
+
