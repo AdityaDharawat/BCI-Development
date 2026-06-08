@@ -897,3 +897,12 @@ Reducing scanner-specific variation could improve generalization.
 Reviewed examples of clinical applications involving MRI image registration techniques.
 Practical deployment often requires extensive validation across cohorts.
 
+
+
+---
+
+### Daily Update (2026-06-09 00:53:21 IST)
+
+Read about explainability techniques associated with intensity standardization in MRI.
+Understanding model decisions remains important for medical applications.
+
