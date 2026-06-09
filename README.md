@@ -924,3 +924,12 @@ Interesting differences exist between academic and production pipelines.
 Looked into common challenges encountered during healthy vs tumor MRI classification.
 Data heterogeneity remains a recurring issue in published studies.
 
+
+
+---
+
+### Daily Update (2026-06-10 00:40:00 IST)
+
+Examined approaches for handling class imbalance in MRI image normalization methods.
+Sampling strategies continue to be widely adopted.
+
