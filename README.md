@@ -933,3 +933,12 @@ Data heterogeneity remains a recurring issue in published studies.
 Examined approaches for handling class imbalance in MRI image normalization methods.
 Sampling strategies continue to be widely adopted.
 
+
+
+---
+
+### Daily Update (2026-06-10 02:31:45 IST)
+
+Analyzed recent trends shaping MRI image registration techniques.
+Foundation models and self-supervised approaches are receiving increased attention.
+
