@@ -1041,3 +1041,12 @@ Model complexity does not always translate to better performance.
 Compared feature extraction pipelines used in brain MRI preprocessing techniques.
 Some methods prioritize interpretability over predictive performance.
 
+
+
+---
+
+### Daily Update (2026-06-13 12:52:27 IST)
+
+Reviewed literature discussing dataset harmonization for deep learning for brain tumor diagnosis.
+Reducing scanner-specific variation could improve generalization.
+
