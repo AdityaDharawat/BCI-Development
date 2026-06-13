@@ -1050,3 +1050,12 @@ Some methods prioritize interpretability over predictive performance.
 Reviewed literature discussing dataset harmonization for deep learning for brain tumor diagnosis.
 Reducing scanner-specific variation could improve generalization.
 
+
+
+---
+
+### Daily Update (2026-06-14 01:24:06 IST)
+
+Looked into common challenges encountered during healthy vs tumor MRI classification.
+Data heterogeneity remains a recurring issue in published studies.
+
