@@ -1068,3 +1068,12 @@ Data heterogeneity remains a recurring issue in published studies.
 Compared traditional machine learning and deep learning methods for multimodal MRI tumor classification.
 Performance differences often depend on dataset size and quality.
 
+
+
+---
+
+### Daily Update (2026-06-14 03:32:46 IST)
+
+Explored how dataset characteristics impact brain MRI preprocessing techniques.
+Class distribution and cohort diversity seem important for evaluation.
+
