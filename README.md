@@ -1086,3 +1086,12 @@ Class distribution and cohort diversity seem important for evaluation.
 Spent time investigating challenges related to deep learning for brain tumor diagnosis.
 Differences in MRI acquisition protocols appear to affect downstream results.
 
+
+
+---
+
+### Daily Update (2026-06-15 00:29:08 IST)
+
+Reviewed recent publications involving skull stripping for brain MRI.
+Many studies focus on improving robustness across institutions.
+
