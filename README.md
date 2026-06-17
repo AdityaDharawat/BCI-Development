@@ -1176,3 +1176,12 @@ Artifact management continues to be discussed extensively in literature.
 Reviewed recent methodologies in brain MRI preprocessing techniques today.
 Noticed several studies emphasize preprocessing consistency before model training.
 
+
+
+---
+
+### Daily Update (2026-06-18 00:40:14 IST)
+
+Investigated data augmentation practices used in intensity standardization in MRI.
+Several studies report improvements when training diversity is increased.
+
