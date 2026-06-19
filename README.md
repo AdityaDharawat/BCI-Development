@@ -1230,3 +1230,12 @@ Sampling strategies continue to be widely adopted.
 Looked into automated quality control methods for multi-center MRI dataset harmonization.
 Early detection of problematic scans may reduce downstream errors.
 
+
+
+---
+
+### Daily Update (2026-06-20 01:56:48 IST)
+
+Studied evaluation protocols commonly applied to transfer learning for brain tumor classification.
+Cross-validation strategies vary substantially between studies.
+
