@@ -1257,3 +1257,12 @@ Many studies focus on improving robustness across institutions.
 Spent time understanding evaluation metrics for cross-cohort MRI classification.
 Different metrics can highlight different aspects of model performance.
 
+
+
+---
+
+### Daily Update (2026-06-21 01:48:14 IST)
+
+Spent time investigating challenges related to clinical MRI dataset analysis.
+Differences in MRI acquisition protocols appear to affect downstream results.
+
