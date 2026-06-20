@@ -1248,3 +1248,12 @@ Cross-validation strategies vary substantially between studies.
 Reviewed recent publications involving multimodal MRI tumor classification.
 Many studies focus on improving robustness across institutions.
 
+
+
+---
+
+### Daily Update (2026-06-21 01:35:15 IST)
+
+Spent time understanding evaluation metrics for cross-cohort MRI classification.
+Different metrics can highlight different aspects of model performance.
+
