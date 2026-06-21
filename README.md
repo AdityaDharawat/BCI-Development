@@ -1266,3 +1266,12 @@ Different metrics can highlight different aspects of model performance.
 Spent time investigating challenges related to clinical MRI dataset analysis.
 Differences in MRI acquisition protocols appear to affect downstream results.
 
+
+
+---
+
+### Daily Update (2026-06-21 13:00:43 IST)
+
+Studied preprocessing recommendations proposed for MRI feature engineering for tumor detection.
+Several guidelines emphasize consistency across datasets.
+
