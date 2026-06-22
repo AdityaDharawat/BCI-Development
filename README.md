@@ -1293,3 +1293,12 @@ Early detection of problematic scans may reduce downstream errors.
 Reviewed advances in 3D deep learning relevant to attention mechanisms in MRI classification.
 Volumetric models continue to show promising results.
 
+
+
+---
+
+### Daily Update (2026-06-22 12:40:36 IST)
+
+Spent time understanding evaluation metrics for brain tumor classification using MRI.
+Different metrics can highlight different aspects of model performance.
+
