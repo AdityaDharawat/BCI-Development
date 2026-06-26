@@ -1410,3 +1410,12 @@ Balanced representation may help improve generalization outcomes.
 Reviewed the overall research landscape around MRI image normalization methods.
 The field continues to move toward more robust and clinically applicable solutions.
 
+
+
+---
+
+### Daily Update (2026-06-27 03:20:30 IST)
+
+Explored how dataset characteristics impact multi-center MRI dataset harmonization.
+Class distribution and cohort diversity seem important for evaluation.
+
