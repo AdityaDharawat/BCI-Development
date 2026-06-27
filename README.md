@@ -1419,3 +1419,12 @@ The field continues to move toward more robust and clinically applicable solutio
 Explored how dataset characteristics impact multi-center MRI dataset harmonization.
 Class distribution and cohort diversity seem important for evaluation.
 
+
+
+---
+
+### Daily Update (2026-06-28 01:40:32 IST)
+
+Examined approaches for handling class imbalance in intensity standardization in MRI.
+Sampling strategies continue to be widely adopted.
+
