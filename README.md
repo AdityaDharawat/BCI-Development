@@ -1527,3 +1527,12 @@ Interpretability and reliability remain major considerations.
 Reviewed the overall research landscape around clinical MRI dataset analysis.
 The field continues to move toward more robust and clinically applicable solutions.
 
+
+
+---
+
+### Daily Update (2026-07-02 19:43:20 IST)
+
+Compared several techniques used in ensemble models for tumor classification.
+Each method presents trade-offs between accuracy, complexity, and interpretability.
+
