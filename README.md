@@ -1752,3 +1752,12 @@ Several guidelines emphasize consistency across datasets.
 Investigated data augmentation practices used in ensemble models for tumor classification.
 Several studies report improvements when training diversity is increased.
 
+
+
+---
+
+### Daily Update (2026-07-15 01:45:20 IST)
+
+Reviewed literature discussing dataset harmonization for glioma detection from MRI scans.
+Reducing scanner-specific variation could improve generalization.
+
