@@ -1770,3 +1770,12 @@ Reducing scanner-specific variation could improve generalization.
 Explored how dataset characteristics impact transformer models for brain MRI analysis.
 Class distribution and cohort diversity seem important for evaluation.
 
+
+
+---
+
+### Daily Update (2026-07-16 01:43:41 IST)
+
+Examined feature stability across multiple cohorts in brain tumor segmentation methods.
+Some representations appear more transferable than others.
+
