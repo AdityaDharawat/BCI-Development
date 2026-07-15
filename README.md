@@ -1761,3 +1761,12 @@ Several studies report improvements when training diversity is increased.
 Reviewed literature discussing dataset harmonization for glioma detection from MRI scans.
 Reducing scanner-specific variation could improve generalization.
 
+
+
+---
+
+### Daily Update (2026-07-16 01:42:51 IST)
+
+Explored how dataset characteristics impact transformer models for brain MRI analysis.
+Class distribution and cohort diversity seem important for evaluation.
+
