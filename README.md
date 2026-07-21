@@ -1878,3 +1878,12 @@ Early detection of problematic scans may reduce downstream errors.
 Reviewed recent methodologies in volumetric tumor assessment today.
 Noticed several studies emphasize preprocessing consistency before model training.
 
+
+
+---
+
+### Daily Update (2026-07-22 01:49:46 IST)
+
+Compared feature extraction pipelines used in medical image segmentation with U-Net.
+Some methods prioritize interpretability over predictive performance.
+
