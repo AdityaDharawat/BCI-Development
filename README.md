@@ -1905,3 +1905,12 @@ Early detection of problematic scans may reduce downstream errors.
 Studied recent advances in medical image segmentation for tumor progression prediction using MRI.
 Several architectures focus on preserving fine structural details.
 
+
+
+---
+
+### Daily Update (2026-07-23 04:48:20 IST)
+
+Explored how dataset characteristics impact survival prediction from brain MRI.
+Class distribution and cohort diversity seem important for evaluation.
+
