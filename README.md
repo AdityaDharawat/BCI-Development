@@ -1950,3 +1950,12 @@ Even small modifications may influence downstream predictions.
 Investigated recent developments related to brain lesion detection and classification.
 Transformer-based approaches are becoming more common in medical imaging research.
 
+
+
+---
+
+### Daily Update (2026-07-24 11:41:09 IST)
+
+Looked into common challenges encountered during explainable AI for brain tumor diagnosis.
+Data heterogeneity remains a recurring issue in published studies.
+
