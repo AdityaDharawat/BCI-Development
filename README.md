@@ -1968,3 +1968,12 @@ Data heterogeneity remains a recurring issue in published studies.
 Investigated multimodal approaches linked to radiomics feature extraction from MRI.
 Combining complementary MRI sequences may enhance performance.
 
+
+
+---
+
+### Daily Update (2026-07-25 10:29:53 IST)
+
+Studied recent advances in medical image segmentation for medical image segmentation with U-Net.
+Several architectures focus on preserving fine structural details.
+
