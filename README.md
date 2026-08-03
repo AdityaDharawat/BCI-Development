@@ -2184,3 +2184,12 @@ The field continues to move toward more robust and clinically applicable solutio
 Reviewed research focused on clinical translation of transfer learning for brain tumor classification.
 Interpretability and reliability remain major considerations.
 
+
+
+---
+
+### Daily Update (2026-08-04 01:57:42 IST)
+
+Explored the impact of preprocessing choices on medical image segmentation with U-Net.
+Even small modifications may influence downstream predictions.
+
