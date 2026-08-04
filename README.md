@@ -2193,3 +2193,12 @@ Interpretability and reliability remain major considerations.
 Explored the impact of preprocessing choices on medical image segmentation with U-Net.
 Even small modifications may influence downstream predictions.
 
+
+
+---
+
+### Daily Update (2026-08-04 23:48:29 IST)
+
+Looked into automated quality control methods for clinical MRI dataset analysis.
+Early detection of problematic scans may reduce downstream errors.
+
