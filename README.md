@@ -2265,3 +2265,12 @@ Foundation models and self-supervised approaches are receiving increased attenti
 Investigated feature representation techniques used in MRI cohort-based tumor studies.
 Latent-space learning approaches are gaining popularity.
 
+
+
+---
+
+### Daily Update (2026-08-08 14:23:46 IST)
+
+Compared recent architectures applied to multimodal MRI tumor classification.
+Model complexity does not always translate to better performance.
+
