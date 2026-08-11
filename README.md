@@ -2346,3 +2346,12 @@ Practical deployment often requires extensive validation across cohorts.
 Focused on understanding the workflow behind MRI image registration techniques.
 Data preparation remains a critical step before model development.
 
+
+
+---
+
+### Daily Update (2026-08-12 01:31:31 IST)
+
+Compared several techniques used in MRI feature engineering for tumor detection.
+Each method presents trade-offs between accuracy, complexity, and interpretability.
+
