@@ -2355,3 +2355,12 @@ Data preparation remains a critical step before model development.
 Compared several techniques used in MRI feature engineering for tumor detection.
 Each method presents trade-offs between accuracy, complexity, and interpretability.
 
+
+
+---
+
+### Daily Update (2026-08-13 00:30:09 IST)
+
+Examined preprocessing outputs associated with 3D U-Net for brain tumor segmentation.
+Normalization appears to improve consistency across different MRI studies.
+
