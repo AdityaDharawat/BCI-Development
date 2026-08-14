@@ -2400,3 +2400,12 @@ Practical deployment often requires extensive validation across cohorts.
 Looked into automated quality control methods for brain MRI preprocessing techniques.
 Early detection of problematic scans may reduce downstream errors.
 
+
+
+---
+
+### Daily Update (2026-08-14 21:11:41 IST)
+
+Spent time investigating challenges related to MRI image denoising techniques.
+Differences in MRI acquisition protocols appear to affect downstream results.
+
