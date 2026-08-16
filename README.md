@@ -2472,3 +2472,12 @@ Generalization across unseen cohorts remains an active research area.
 Reviewed research focused on clinical translation of 3D MRI image analysis.
 Interpretability and reliability remain major considerations.
 
+
+
+---
+
+### Daily Update (2026-08-17 02:56:27 IST)
+
+Compared feature extraction pipelines used in brain lesion detection and classification.
+Some methods prioritize interpretability over predictive performance.
+
