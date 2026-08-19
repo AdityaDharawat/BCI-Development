@@ -2571,3 +2571,12 @@ Some representations appear more transferable than others.
 Compared several techniques used in 3D MRI image analysis.
 Each method presents trade-offs between accuracy, complexity, and interpretability.
 
+
+
+---
+
+### Daily Update (2026-08-20 04:38:43 IST)
+
+Spent time understanding evaluation metrics for glioma detection from MRI scans.
+Different metrics can highlight different aspects of model performance.
+
