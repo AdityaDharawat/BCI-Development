@@ -2562,3 +2562,12 @@ Alignment quality appears important for comparative analysis.
 Examined feature stability across multiple cohorts in medical image segmentation with U-Net.
 Some representations appear more transferable than others.
 
+
+
+---
+
+### Daily Update (2026-08-20 01:02:30 IST)
+
+Compared several techniques used in 3D MRI image analysis.
+Each method presents trade-offs between accuracy, complexity, and interpretability.
+
