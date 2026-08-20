@@ -2589,3 +2589,12 @@ Different metrics can highlight different aspects of model performance.
 Investigated feature representation techniques used in explainable AI for brain tumor diagnosis.
 Latent-space learning approaches are gaining popularity.
 
+
+
+---
+
+### Daily Update (2026-08-21 01:03:59 IST)
+
+Studied preprocessing recommendations proposed for medical image segmentation with U-Net.
+Several guidelines emphasize consistency across datasets.
+
