@@ -2580,3 +2580,12 @@ Each method presents trade-offs between accuracy, complexity, and interpretabili
 Spent time understanding evaluation metrics for glioma detection from MRI scans.
 Different metrics can highlight different aspects of model performance.
 
+
+
+---
+
+### Daily Update (2026-08-20 12:32:34 IST)
+
+Investigated feature representation techniques used in explainable AI for brain tumor diagnosis.
+Latent-space learning approaches are gaining popularity.
+
