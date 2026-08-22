@@ -2625,3 +2625,12 @@ Sampling strategies continue to be widely adopted.
 Explored cross-cohort evaluation strategies related to intensity standardization in MRI.
 External validation is frequently highlighted as best practice.
 
+
+
+---
+
+### Daily Update (2026-08-23 00:15:40 IST)
+
+Investigated recent developments related to glioma detection from MRI scans.
+Transformer-based approaches are becoming more common in medical imaging research.
+
