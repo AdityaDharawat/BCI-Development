@@ -2634,3 +2634,12 @@ External validation is frequently highlighted as best practice.
 Investigated recent developments related to glioma detection from MRI scans.
 Transformer-based approaches are becoming more common in medical imaging research.
 
+
+
+---
+
+### Daily Update (2026-08-23 00:54:39 IST)
+
+Reviewed examples of clinical applications involving explainable AI for brain tumor diagnosis.
+Practical deployment often requires extensive validation across cohorts.
+
