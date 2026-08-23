@@ -2643,3 +2643,12 @@ Transformer-based approaches are becoming more common in medical imaging researc
 Reviewed examples of clinical applications involving explainable AI for brain tumor diagnosis.
 Practical deployment often requires extensive validation across cohorts.
 
+
+
+---
+
+### Daily Update (2026-08-23 13:09:44 IST)
+
+Examined cohort composition for transformer models for brain MRI analysis.
+Balanced representation may help improve generalization outcomes.
+
