@@ -2652,3 +2652,12 @@ Practical deployment often requires extensive validation across cohorts.
 Examined cohort composition for transformer models for brain MRI analysis.
 Balanced representation may help improve generalization outcomes.
 
+
+
+---
+
+### Daily Update (2026-08-23 13:36:01 IST)
+
+Examined approaches for handling class imbalance in multi-center MRI dataset harmonization.
+Sampling strategies continue to be widely adopted.
+
