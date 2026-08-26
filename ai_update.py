@@ -14,48 +14,105 @@ headers = {
 }
 
 research_topics = [
-    "brain MRI preprocessing techniques",
-    "MRI image normalization methods",
-    "bias field correction in MRI scans",
-    "skull stripping for brain MRI",
-    "MRI image denoising techniques",
-    "intensity standardization in MRI",
-    "brain tumor classification using MRI",
-    "healthy vs tumor MRI classification",
-    "glioma detection from MRI scans",
-    "brain tumor segmentation methods",
-    "MRI tumor localization techniques",
-    "deep learning for brain tumor diagnosis",
-    "convolutional neural networks for MRI classification",
-    "transformer models for brain MRI analysis",
-    "multimodal MRI tumor classification",
-    "radiomics feature extraction from MRI",
-    "MRI feature engineering for tumor detection",
-    "3D MRI image analysis",
-    "volumetric tumor assessment",
-    "MRI cohort-based tumor studies",
-    "cross-cohort MRI classification",
-    "multi-center MRI dataset harmonization",
-    "class imbalance handling in MRI datasets",
-    "data augmentation for brain MRI",
-    "synthetic MRI generation for tumor detection",
-    "transfer learning for brain tumor classification",
-    "self-supervised learning on MRI scans",
-    "few-shot learning for MRI tumor recognition",
-    "explainable AI for brain tumor diagnosis",
-    "attention mechanisms in MRI classification",
-    "MRI image registration techniques",
-    "tumor grading using MRI scans",
-    "benign vs malignant tumor classification",
-    "automated brain abnormality detection",
-    "tumor progression prediction using MRI",
-    "survival prediction from brain MRI",
-    "brain lesion detection and classification",
-    "medical image segmentation with U-Net",
-    "3D U-Net for brain tumor segmentation",
-    "Vision Transformers for MRI analysis",
-    "ensemble models for tumor classification",
-    "clinical MRI dataset analysis"
+
+    "evolution of convolutional neural networks for medical imaging",
+
+    "fundamentals of CNN architecture for brain MRI classification",
+
+    "convolution operations for brain MRI feature extraction",
+
+    "pooling techniques in CNN-based MRI classification",
+
+    "activation functions in medical image CNNs",
+
+    "batch normalization in CNN-based MRI analysis",
+
+    "dropout and regularization in CNN tumor classification",
+
+    "CNN kernel size selection for MRI analysis",
+
+    "stride and padding effects in CNN MRI models",
+
+    "CNN depth and its effect on brain tumor classification",
+
+    "hierarchical feature learning in CNNs for MRI",
+
+    "low-level and high-level feature extraction using CNNs",
+
+    "texture feature learning using CNNs for brain MRI",
+
+    "spatial feature extraction for brain tumor recognition",
+
+    "end-to-end CNN learning for brain MRI classification",
+
+    "shallow vs deep CNN architectures for MRI classification",
+
+    "transfer learning with pretrained CNN models",
+
+    "fine-tuning pretrained CNNs for brain MRI datasets",
+
+    "ImageNet pretraining for medical image classification",
+
+    "CNN feature extraction using pretrained models",
+
+    "ResNet architecture and residual learning",
+
+    "ResNet-18 vs ResNet-34 for MRI classification",
+
+    "ResNet-50 architecture for brain tumor classification",
+
+    "residual blocks and skip connections in ResNet",
+
+    "vanishing gradient problem and the development of ResNet",
+
+    "bottleneck blocks in ResNet-50",
+
+    "identity mapping in residual neural networks",
+
+    "ResNet depth and its effect on MRI classification",
+
+    "ResNet-50 feature extraction for brain MRI",
+
+    "EfficientNet architecture for medical image classification",
+
+    "EfficientNet compound scaling method",
+
+    "EfficientNet-B0 to B7 architecture comparison",
+
+    "depth width and resolution scaling in EfficientNet",
+
+    "mobile inverted bottleneck convolution in EfficientNet",
+
+    "squeeze-and-excitation blocks in EfficientNet",
+
+    "EfficientNet parameter efficiency for small MRI datasets",
+
+    "EfficientNet transfer learning for brain tumor classification",
+
+    "ResNet-50 vs EfficientNet for brain MRI classification",
+
+    "CNN ensemble methods for brain tumor detection",
+
+    "feature fusion between multiple CNN architectures",
+
+    "global average pooling in CNN-based MRI classification",
+
+    "learning rate strategies for CNN medical image models",
+
+    "optimizer comparison for CNN-based MRI classification",
+
+    "CNN training stability and overfitting on small MRI datasets",
+
+    "cross-validation strategies for CNN-based medical imaging",
+
+    "CNN model interpretability using Grad-CAM",
+
+    "ablation studies of CNN architectural components",
+
+    "computational efficiency and inference speed of CNN models",
+
+    "CNN architecture optimization for brain tumor MRI classification"
+
 ]
 
 selected_topic = random.choice(research_topics)
