@@ -2769,3 +2769,12 @@ Several guidelines emphasize consistency across datasets.
 Reviewed literature discussing dataset harmonization for ResNet architecture and residual learning.
 Reducing scanner-specific variation could improve generalization.
 
+
+
+---
+
+### Daily Update (2026-08-27 04:01:38 IST)
+
+Studied preprocessing recommendations proposed for fundamentals of CNN architecture for brain MRI classification.
+Several guidelines emphasize consistency across datasets.
+
