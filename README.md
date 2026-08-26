@@ -2751,3 +2751,12 @@ Several architectures focus on preserving fine structural details.
 Explored transfer learning strategies for class imbalance handling in MRI datasets.
 Pretrained models may help when labeled MRI data is limited.
 
+
+
+---
+
+### Daily Update (2026-08-26 23:56:20 IST)
+
+Studied preprocessing recommendations proposed for hierarchical feature learning in CNNs for MRI.
+Several guidelines emphasize consistency across datasets.
+
