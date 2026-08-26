@@ -107,7 +107,7 @@ research_topics = [
 
     "CNN model interpretability using Grad-CAM",
 
-    "ablation studies of CNN architectural components",
+    "studies of CNN architectural components",
 
     "computational efficiency and inference speed of CNN models",
 
