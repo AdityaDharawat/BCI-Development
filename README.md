@@ -2760,3 +2760,12 @@ Pretrained models may help when labeled MRI data is limited.
 Studied preprocessing recommendations proposed for hierarchical feature learning in CNNs for MRI.
 Several guidelines emphasize consistency across datasets.
 
+
+
+---
+
+### Daily Update (2026-08-27 03:12:22 IST)
+
+Reviewed literature discussing dataset harmonization for ResNet architecture and residual learning.
+Reducing scanner-specific variation could improve generalization.
+
