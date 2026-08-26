@@ -2742,3 +2742,12 @@ Independent testing cohorts are commonly recommended.
 Studied recent advances in medical image segmentation for radiomics feature extraction from MRI.
 Several architectures focus on preserving fine structural details.
 
+
+
+---
+
+### Daily Update (2026-08-26 22:43:34 IST)
+
+Explored transfer learning strategies for class imbalance handling in MRI datasets.
+Pretrained models may help when labeled MRI data is limited.
+
