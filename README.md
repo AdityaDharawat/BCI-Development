@@ -2778,3 +2778,12 @@ Reducing scanner-specific variation could improve generalization.
 Studied preprocessing recommendations proposed for fundamentals of CNN architecture for brain MRI classification.
 Several guidelines emphasize consistency across datasets.
 
+
+
+---
+
+### Daily Update (2026-08-27 19:30:25 IST)
+
+Examined feature stability across multiple cohorts in feature fusion between multiple CNN architectures.
+Some representations appear more transferable than others.
+
