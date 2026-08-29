@@ -2868,3 +2868,12 @@ Even small modifications may influence downstream predictions.
 Read about explainability techniques associated with CNN model interpretability using Grad-CAM.
 Understanding model decisions remains important for medical applications.
 
+
+
+---
+
+### Daily Update (2026-08-30 03:03:24 IST)
+
+Examined feature stability across multiple cohorts in ResNet-50 vs EfficientNet for brain MRI classification.
+Some representations appear more transferable than others.
+
