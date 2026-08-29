@@ -2877,3 +2877,12 @@ Understanding model decisions remains important for medical applications.
 Examined feature stability across multiple cohorts in ResNet-50 vs EfficientNet for brain MRI classification.
 Some representations appear more transferable than others.
 
+
+
+---
+
+### Daily Update (2026-08-30 04:14:20 IST)
+
+Studied evaluation protocols commonly applied to cross-validation strategies for CNN-based medical imaging.
+Cross-validation strategies vary substantially between studies.
+
