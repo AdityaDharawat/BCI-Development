@@ -2841,3 +2841,12 @@ Foundation models and self-supervised approaches are receiving increased attenti
 Compared different MRI preprocessing pipelines related to learning rate strategies for CNN medical image models.
 Standardization remains a key theme across studies.
 
+
+
+---
+
+### Daily Update (2026-08-29 14:50:37 IST)
+
+Compared different MRI preprocessing pipelines related to CNN depth and its effect on brain tumor classification.
+Standardization remains a key theme across studies.
+
