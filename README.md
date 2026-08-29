@@ -2850,3 +2850,12 @@ Standardization remains a key theme across studies.
 Compared different MRI preprocessing pipelines related to CNN depth and its effect on brain tumor classification.
 Standardization remains a key theme across studies.
 
+
+
+---
+
+### Daily Update (2026-08-29 19:06:26 IST)
+
+Explored the impact of preprocessing choices on EfficientNet parameter efficiency for small MRI datasets.
+Even small modifications may influence downstream predictions.
+
