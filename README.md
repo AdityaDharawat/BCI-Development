@@ -2913,3 +2913,12 @@ Different metrics can highlight different aspects of model performance.
 Analyzed feature extraction strategies used for CNN training stability and overfitting on small MRI datasets.
 Certain image-derived features appear more robust across datasets.
 
+
+
+---
+
+### Daily Update (2026-08-31 03:21:40 IST)
+
+Explored cross-cohort evaluation strategies related to ResNet-50 feature extraction for brain MRI.
+External validation is frequently highlighted as best practice.
+
