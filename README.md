@@ -2895,3 +2895,12 @@ Cross-validation strategies vary substantially between studies.
 Examined preprocessing outputs associated with EfficientNet compound scaling method.
 Normalization appears to improve consistency across different MRI studies.
 
+
+
+---
+
+### Daily Update (2026-08-30 19:33:48 IST)
+
+Spent time understanding evaluation metrics for EfficientNet transfer learning for brain tumor classification.
+Different metrics can highlight different aspects of model performance.
+
