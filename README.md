@@ -2904,3 +2904,12 @@ Normalization appears to improve consistency across different MRI studies.
 Spent time understanding evaluation metrics for EfficientNet transfer learning for brain tumor classification.
 Different metrics can highlight different aspects of model performance.
 
+
+
+---
+
+### Daily Update (2026-08-31 00:26:12 IST)
+
+Analyzed feature extraction strategies used for CNN training stability and overfitting on small MRI datasets.
+Certain image-derived features appear more robust across datasets.
+
