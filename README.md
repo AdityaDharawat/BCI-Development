@@ -2931,3 +2931,12 @@ External validation is frequently highlighted as best practice.
 Studied recent advances in medical image segmentation for ResNet architecture and residual learning.
 Several architectures focus on preserving fine structural details.
 
+
+
+---
+
+### Daily Update (2026-08-31 15:09:31 IST)
+
+Analyzed feature extraction strategies used for residual blocks and skip connections in ResNet.
+Certain image-derived features appear more robust across datasets.
+
