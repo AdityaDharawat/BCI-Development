@@ -2949,3 +2949,12 @@ Certain image-derived features appear more robust across datasets.
 Explored how dataset characteristics impact CNN depth and its effect on brain tumor classification.
 Class distribution and cohort diversity seem important for evaluation.
 
+
+
+---
+
+### Daily Update (2026-09-01 04:39:00 IST)
+
+Investigated recent developments related to residual blocks and skip connections in ResNet.
+Transformer-based approaches are becoming more common in medical imaging research.
+
