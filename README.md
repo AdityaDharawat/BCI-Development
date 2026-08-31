@@ -2940,3 +2940,12 @@ Several architectures focus on preserving fine structural details.
 Analyzed feature extraction strategies used for residual blocks and skip connections in ResNet.
 Certain image-derived features appear more robust across datasets.
 
+
+
+---
+
+### Daily Update (2026-09-01 03:01:47 IST)
+
+Explored how dataset characteristics impact CNN depth and its effect on brain tumor classification.
+Class distribution and cohort diversity seem important for evaluation.
+
