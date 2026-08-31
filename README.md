@@ -2922,3 +2922,12 @@ Certain image-derived features appear more robust across datasets.
 Explored cross-cohort evaluation strategies related to ResNet-50 feature extraction for brain MRI.
 External validation is frequently highlighted as best practice.
 
+
+
+---
+
+### Daily Update (2026-08-31 10:56:06 IST)
+
+Studied recent advances in medical image segmentation for ResNet architecture and residual learning.
+Several architectures focus on preserving fine structural details.
+
