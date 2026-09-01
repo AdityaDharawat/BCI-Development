@@ -2976,3 +2976,12 @@ Performance differences often depend on dataset size and quality.
 Analyzed feature extraction strategies used for squeeze-and-excitation blocks in EfficientNet.
 Certain image-derived features appear more robust across datasets.
 
+
+
+---
+
+### Daily Update (2026-09-02 03:09:06 IST)
+
+Spent time understanding evaluation metrics for ResNet depth and its effect on MRI classification.
+Different metrics can highlight different aspects of model performance.
+
