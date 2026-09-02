@@ -2985,3 +2985,12 @@ Certain image-derived features appear more robust across datasets.
 Spent time understanding evaluation metrics for ResNet depth and its effect on MRI classification.
 Different metrics can highlight different aspects of model performance.
 
+
+
+---
+
+### Daily Update (2026-09-02 20:23:48 IST)
+
+Compared different MRI preprocessing pipelines related to ResNet architecture and residual learning.
+Standardization remains a key theme across studies.
+
