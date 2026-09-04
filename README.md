@@ -3048,3 +3048,12 @@ Combining complementary MRI sequences may enhance performance.
 Reviewed advances in 3D deep learning relevant to ResNet-50 feature extraction for brain MRI.
 Volumetric models continue to show promising results.
 
+
+
+---
+
+### Daily Update (2026-09-04 12:41:21 IST)
+
+Compared several techniques used in EfficientNet architecture for medical image classification.
+Each method presents trade-offs between accuracy, complexity, and interpretability.
+
