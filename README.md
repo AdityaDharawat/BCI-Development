@@ -3075,3 +3075,12 @@ Data preparation remains a critical step before model development.
 Explored volumetric analysis methods associated with end-to-end CNN learning for brain MRI classification.
 Three-dimensional information provides additional clinical context.
 
+
+
+---
+
+### Daily Update (2026-09-05 14:03:25 IST)
+
+Explored cross-cohort evaluation strategies related to residual blocks and skip connections in ResNet.
+External validation is frequently highlighted as best practice.
+
