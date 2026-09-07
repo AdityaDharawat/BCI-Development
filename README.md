@@ -3147,3 +3147,12 @@ Interpretability and reliability remain major considerations.
 Reviewed research focused on clinical translation of global average pooling in CNN-based MRI classification.
 Interpretability and reliability remain major considerations.
 
+
+
+---
+
+### Daily Update (2026-09-08 03:25:43 IST)
+
+Examined approaches for handling class imbalance in shallow vs deep CNN architectures for MRI classification.
+Sampling strategies continue to be widely adopted.
+
