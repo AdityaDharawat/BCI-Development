@@ -3255,3 +3255,12 @@ Several guidelines emphasize consistency across datasets.
 Analyzed segmentation outputs associated with activation functions in medical image CNNs.
 Boundary precision appears important for downstream analysis.
 
+
+
+---
+
+### Daily Update (2026-09-12 03:06:06 IST)
+
+Spent time understanding evaluation metrics for residual blocks and skip connections in ResNet.
+Different metrics can highlight different aspects of model performance.
+
