@@ -3345,3 +3345,12 @@ Reducing scanner-specific variation could improve generalization.
 Looked into automated quality control methods for EfficientNet compound scaling method.
 Early detection of problematic scans may reduce downstream errors.
 
+
+
+---
+
+### Daily Update (2026-09-14 03:36:54 IST)
+
+Investigated feature representation techniques used in batch normalization in CNN-based MRI analysis.
+Latent-space learning approaches are gaining popularity.
+
