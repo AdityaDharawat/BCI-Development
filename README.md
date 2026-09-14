@@ -3363,3 +3363,12 @@ Latent-space learning approaches are gaining popularity.
 Read about explainability techniques associated with convolution operations for brain MRI feature extraction.
 Understanding model decisions remains important for medical applications.
 
+
+
+---
+
+### Daily Update (2026-09-15 03:51:22 IST)
+
+Examined feature stability across multiple cohorts in CNN model interpretability using Grad-CAM.
+Some representations appear more transferable than others.
+
