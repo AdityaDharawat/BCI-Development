@@ -3354,3 +3354,12 @@ Early detection of problematic scans may reduce downstream errors.
 Investigated feature representation techniques used in batch normalization in CNN-based MRI analysis.
 Latent-space learning approaches are gaining popularity.
 
+
+
+---
+
+### Daily Update (2026-09-14 12:02:14 IST)
+
+Read about explainability techniques associated with convolution operations for brain MRI feature extraction.
+Understanding model decisions remains important for medical applications.
+
