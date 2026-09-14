@@ -3372,3 +3372,12 @@ Understanding model decisions remains important for medical applications.
 Examined feature stability across multiple cohorts in CNN model interpretability using Grad-CAM.
 Some representations appear more transferable than others.
 
+
+
+---
+
+### Daily Update (2026-09-15 03:55:06 IST)
+
+Reviewed literature discussing dataset harmonization for stride and padding effects in CNN MRI models.
+Reducing scanner-specific variation could improve generalization.
+
