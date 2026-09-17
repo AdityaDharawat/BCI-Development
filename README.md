@@ -3453,3 +3453,12 @@ Data preparation remains a critical step before model development.
 Analyzed segmentation outputs associated with CNN ensemble methods for brain tumor detection.
 Boundary precision appears important for downstream analysis.
 
+
+
+---
+
+### Daily Update (2026-09-18 03:28:30 IST)
+
+Analyzed a subset of scans for ResNet-18 vs ResNet-34 for MRI classification.
+Observed that image quality variations can influence feature extraction reliability.
+
