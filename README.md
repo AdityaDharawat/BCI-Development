@@ -3507,3 +3507,12 @@ Interesting differences exist between academic and production pipelines.
 Explored how dataset characteristics impact ResNet-50 feature extraction for brain MRI.
 Class distribution and cohort diversity seem important for evaluation.
 
+
+
+---
+
+### Daily Update (2026-09-20 16:44:38 IST)
+
+Read multiple research papers connected to fine-tuning pretrained CNNs for brain MRI datasets.
+Many approaches rely heavily on robust preprocessing before classification.
+
