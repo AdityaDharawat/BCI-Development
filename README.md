@@ -3498,3 +3498,12 @@ Data heterogeneity remains a recurring issue in published studies.
 Reviewed open-source implementations related to fine-tuning pretrained CNNs for brain MRI datasets.
 Interesting differences exist between academic and production pipelines.
 
+
+
+---
+
+### Daily Update (2026-09-20 09:53:54 IST)
+
+Explored how dataset characteristics impact ResNet-50 feature extraction for brain MRI.
+Class distribution and cohort diversity seem important for evaluation.
+
