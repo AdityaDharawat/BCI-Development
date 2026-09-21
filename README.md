@@ -3534,3 +3534,12 @@ Boundary precision appears important for downstream analysis.
 Explored cross-cohort evaluation strategies related to end-to-end CNN learning for brain MRI classification.
 External validation is frequently highlighted as best practice.
 
+
+
+---
+
+### Daily Update (2026-09-22 04:00:29 IST)
+
+Analyzed a subset of scans for CNN feature extraction using pretrained models.
+Observed that image quality variations can influence feature extraction reliability.
+
