@@ -3525,3 +3525,12 @@ Many approaches rely heavily on robust preprocessing before classification.
 Analyzed segmentation outputs associated with ResNet-50 feature extraction for brain MRI.
 Boundary precision appears important for downstream analysis.
 
+
+
+---
+
+### Daily Update (2026-09-21 13:52:05 IST)
+
+Explored cross-cohort evaluation strategies related to end-to-end CNN learning for brain MRI classification.
+External validation is frequently highlighted as best practice.
+
