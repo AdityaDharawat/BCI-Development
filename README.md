@@ -3543,3 +3543,12 @@ External validation is frequently highlighted as best practice.
 Analyzed a subset of scans for CNN feature extraction using pretrained models.
 Observed that image quality variations can influence feature extraction reliability.
 
+
+
+---
+
+### Daily Update (2026-09-22 12:15:50 IST)
+
+Reviewed recent methodologies in ResNet-50 vs EfficientNet for brain MRI classification today.
+Noticed several studies emphasize preprocessing consistency before model training.
+
