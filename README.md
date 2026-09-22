@@ -3552,3 +3552,12 @@ Observed that image quality variations can influence feature extraction reliabil
 Reviewed recent methodologies in ResNet-50 vs EfficientNet for brain MRI classification today.
 Noticed several studies emphasize preprocessing consistency before model training.
 
+
+
+---
+
+### Daily Update (2026-09-22 17:45:59 IST)
+
+Looked into automated quality control methods for shallow vs deep CNN architectures for MRI classification.
+Early detection of problematic scans may reduce downstream errors.
+
