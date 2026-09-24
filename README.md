@@ -3606,3 +3606,12 @@ Latent-space learning approaches are gaining popularity.
 Examined approaches for handling class imbalance in end-to-end CNN learning for brain MRI classification.
 Sampling strategies continue to be widely adopted.
 
+
+
+---
+
+### Daily Update (2026-09-25 02:34:22 IST)
+
+Analyzed recent trends shaping ResNet architecture and residual learning.
+Foundation models and self-supervised approaches are receiving increased attention.
+
