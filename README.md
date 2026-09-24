@@ -3597,3 +3597,12 @@ Model complexity does not always translate to better performance.
 Investigated feature representation techniques used in cross-validation strategies for CNN-based medical imaging.
 Latent-space learning approaches are gaining popularity.
 
+
+
+---
+
+### Daily Update (2026-09-24 13:10:14 IST)
+
+Examined approaches for handling class imbalance in end-to-end CNN learning for brain MRI classification.
+Sampling strategies continue to be widely adopted.
+
