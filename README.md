@@ -3633,3 +3633,12 @@ Standard workflows may improve reproducibility.
 Investigated feature representation techniques used in global average pooling in CNN-based MRI classification.
 Latent-space learning approaches are gaining popularity.
 
+
+
+---
+
+### Daily Update (2026-09-26 03:35:02 IST)
+
+Compared recent architectures applied to hierarchical feature learning in CNNs for MRI.
+Model complexity does not always translate to better performance.
+
