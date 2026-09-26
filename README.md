@@ -3660,3 +3660,12 @@ Independent testing cohorts are commonly recommended.
 Examined current challenges surrounding global average pooling in CNN-based MRI classification.
 Generalization across unseen cohorts remains an active research area.
 
+
+
+---
+
+### Daily Update (2026-09-26 13:14:25 IST)
+
+Examined preprocessing outputs associated with ResNet-50 vs EfficientNet for brain MRI classification.
+Normalization appears to improve consistency across different MRI studies.
+
