@@ -3705,3 +3705,12 @@ Practical deployment often requires extensive validation across cohorts.
 Reviewed advances in 3D deep learning relevant to texture feature learning using CNNs for brain MRI.
 Volumetric models continue to show promising results.
 
+
+
+---
+
+### Daily Update (2026-09-28 00:14:50 IST)
+
+Analyzed feature extraction strategies used for CNN architecture optimization for brain tumor MRI classification.
+Certain image-derived features appear more robust across datasets.
+
