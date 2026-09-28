@@ -3723,3 +3723,12 @@ Certain image-derived features appear more robust across datasets.
 Looked into automated quality control methods for activation functions in medical image CNNs.
 Early detection of problematic scans may reduce downstream errors.
 
+
+
+---
+
+### Daily Update (2026-09-28 13:23:18 IST)
+
+Read multiple research papers connected to batch normalization in CNN-based MRI analysis.
+Many approaches rely heavily on robust preprocessing before classification.
+
