@@ -3831,3 +3831,12 @@ Foundation models and self-supervised approaches are receiving increased attenti
 Compared different MRI preprocessing pipelines related to shallow vs deep CNN architectures for MRI classification.
 Standardization remains a key theme across studies.
 
+
+
+---
+
+### Daily Update (2026-10-02 02:02:59 IST)
+
+Reviewed research focused on clinical translation of fine-tuning pretrained CNNs for brain MRI datasets.
+Interpretability and reliability remain major considerations.
+
