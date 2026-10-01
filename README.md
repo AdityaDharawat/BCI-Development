@@ -3840,3 +3840,12 @@ Standardization remains a key theme across studies.
 Reviewed research focused on clinical translation of fine-tuning pretrained CNNs for brain MRI datasets.
 Interpretability and reliability remain major considerations.
 
+
+
+---
+
+### Daily Update (2026-10-02 04:31:59 IST)
+
+Investigated feature representation techniques used in ResNet-50 vs EfficientNet for brain MRI classification.
+Latent-space learning approaches are gaining popularity.
+
