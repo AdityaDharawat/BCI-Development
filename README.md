@@ -3849,3 +3849,12 @@ Interpretability and reliability remain major considerations.
 Investigated feature representation techniques used in ResNet-50 vs EfficientNet for brain MRI classification.
 Latent-space learning approaches are gaining popularity.
 
+
+
+---
+
+### Daily Update (2026-10-02 11:26:28 IST)
+
+Reviewed the overall research landscape around residual blocks and skip connections in ResNet.
+The field continues to move toward more robust and clinically applicable solutions.
+
