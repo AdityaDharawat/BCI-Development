@@ -3876,3 +3876,12 @@ Differences in MRI acquisition protocols appear to affect downstream results.
 Looked into common challenges encountered during low-level and high-level feature extraction using CNNs.
 Data heterogeneity remains a recurring issue in published studies.
 
+
+
+---
+
+### Daily Update (2026-10-03 04:20:54 IST)
+
+Investigated recent developments related to mobile inverted bottleneck convolution in EfficientNet.
+Transformer-based approaches are becoming more common in medical imaging research.
+
