@@ -3858,3 +3858,12 @@ Latent-space learning approaches are gaining popularity.
 Reviewed the overall research landscape around residual blocks and skip connections in ResNet.
 The field continues to move toward more robust and clinically applicable solutions.
 
+
+
+---
+
+### Daily Update (2026-10-02 23:00:45 IST)
+
+Spent time investigating challenges related to residual blocks and skip connections in ResNet.
+Differences in MRI acquisition protocols appear to affect downstream results.
+
