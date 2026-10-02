@@ -3867,3 +3867,12 @@ The field continues to move toward more robust and clinically applicable solutio
 Spent time investigating challenges related to residual blocks and skip connections in ResNet.
 Differences in MRI acquisition protocols appear to affect downstream results.
 
+
+
+---
+
+### Daily Update (2026-10-03 01:30:22 IST)
+
+Looked into common challenges encountered during low-level and high-level feature extraction using CNNs.
+Data heterogeneity remains a recurring issue in published studies.
+
