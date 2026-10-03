@@ -3903,3 +3903,12 @@ Latent-space learning approaches are gaining popularity.
 Analyzed common sources of variability affecting ResNet-50 feature extraction for brain MRI.
 Scanner settings and acquisition parameters remain influential factors.
 
+
+
+---
+
+### Daily Update (2026-10-04 02:55:41 IST)
+
+Reviewed literature discussing dataset harmonization for ResNet-18 vs ResNet-34 for MRI classification.
+Reducing scanner-specific variation could improve generalization.
+
