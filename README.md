@@ -3894,3 +3894,12 @@ Transformer-based approaches are becoming more common in medical imaging researc
 Investigated feature representation techniques used in squeeze-and-excitation blocks in EfficientNet.
 Latent-space learning approaches are gaining popularity.
 
+
+
+---
+
+### Daily Update (2026-10-04 01:39:11 IST)
+
+Analyzed common sources of variability affecting ResNet-50 feature extraction for brain MRI.
+Scanner settings and acquisition parameters remain influential factors.
+
