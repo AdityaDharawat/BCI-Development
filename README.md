@@ -3930,3 +3930,12 @@ Reducing scanner-specific variation could improve generalization.
 Reviewed recent methodologies in studies of CNN architectural components today.
 Noticed several studies emphasize preprocessing consistency before model training.
 
+
+
+---
+
+### Daily Update (2026-10-04 23:13:02 IST)
+
+Focused on understanding the workflow behind stride and padding effects in CNN MRI models.
+Data preparation remains a critical step before model development.
+
