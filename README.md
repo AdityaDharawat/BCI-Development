@@ -3921,3 +3921,12 @@ Reducing scanner-specific variation could improve generalization.
 Reviewed literature discussing dataset harmonization for fundamentals of CNN architecture for brain MRI classification.
 Reducing scanner-specific variation could improve generalization.
 
+
+
+---
+
+### Daily Update (2026-10-04 13:12:05 IST)
+
+Reviewed recent methodologies in studies of CNN architectural components today.
+Noticed several studies emphasize preprocessing consistency before model training.
+
