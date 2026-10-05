@@ -3957,3 +3957,12 @@ Data heterogeneity remains a recurring issue in published studies.
 Investigated image registration workflows related to spatial feature extraction for brain tumor recognition.
 Alignment quality appears important for comparative analysis.
 
+
+
+---
+
+### Daily Update (2026-10-05 20:54:53 IST)
+
+Reviewed literature discussing dataset harmonization for ResNet-18 vs ResNet-34 for MRI classification.
+Reducing scanner-specific variation could improve generalization.
+
