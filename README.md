@@ -3966,3 +3966,12 @@ Alignment quality appears important for comparative analysis.
 Reviewed literature discussing dataset harmonization for ResNet-18 vs ResNet-34 for MRI classification.
 Reducing scanner-specific variation could improve generalization.
 
+
+
+---
+
+### Daily Update (2026-10-06 04:00:32 IST)
+
+Examined approaches for handling class imbalance in pooling techniques in CNN-based MRI classification.
+Sampling strategies continue to be widely adopted.
+
