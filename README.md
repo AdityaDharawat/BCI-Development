@@ -3975,3 +3975,12 @@ Reducing scanner-specific variation could improve generalization.
 Examined approaches for handling class imbalance in pooling techniques in CNN-based MRI classification.
 Sampling strategies continue to be widely adopted.
 
+
+
+---
+
+### Daily Update (2026-10-06 06:10:45 IST)
+
+Reviewed recent publications involving global average pooling in CNN-based MRI classification.
+Many studies focus on improving robustness across institutions.
+
