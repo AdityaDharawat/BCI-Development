@@ -4011,3 +4011,12 @@ External validation is frequently highlighted as best practice.
 Compared several techniques used in EfficientNet compound scaling method.
 Each method presents trade-offs between accuracy, complexity, and interpretability.
 
+
+
+---
+
+### Daily Update (2026-10-08 14:30:48 IST)
+
+Spent time investigating challenges related to end-to-end CNN learning for brain MRI classification.
+Differences in MRI acquisition protocols appear to affect downstream results.
+
