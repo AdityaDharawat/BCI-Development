@@ -4029,3 +4029,12 @@ Differences in MRI acquisition protocols appear to affect downstream results.
 Analyzed segmentation outputs associated with squeeze-and-excitation blocks in EfficientNet.
 Boundary precision appears important for downstream analysis.
 
+
+
+---
+
+### Daily Update (2026-10-09 02:42:59 IST)
+
+Read about explainability techniques associated with CNN kernel size selection for MRI analysis.
+Understanding model decisions remains important for medical applications.
+
