@@ -4038,3 +4038,12 @@ Boundary precision appears important for downstream analysis.
 Read about explainability techniques associated with CNN kernel size selection for MRI analysis.
 Understanding model decisions remains important for medical applications.
 
+
+
+---
+
+### Daily Update (2026-10-09 05:11:02 IST)
+
+Looked into common challenges encountered during residual blocks and skip connections in ResNet.
+Data heterogeneity remains a recurring issue in published studies.
+
