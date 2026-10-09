@@ -4074,3 +4074,12 @@ Scanner settings and acquisition parameters remain influential factors.
 Examined current challenges surrounding ResNet-50 feature extraction for brain MRI.
 Generalization across unseen cohorts remains an active research area.
 
+
+
+---
+
+### Daily Update (2026-10-10 03:28:29 IST)
+
+Explored transfer learning strategies for fine-tuning pretrained CNNs for brain MRI datasets.
+Pretrained models may help when labeled MRI data is limited.
+
