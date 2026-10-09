@@ -4083,3 +4083,12 @@ Generalization across unseen cohorts remains an active research area.
 Explored transfer learning strategies for fine-tuning pretrained CNNs for brain MRI datasets.
 Pretrained models may help when labeled MRI data is limited.
 
+
+
+---
+
+### Daily Update (2026-10-10 04:35:34 IST)
+
+Looked into common challenges encountered during batch normalization in CNN-based MRI analysis.
+Data heterogeneity remains a recurring issue in published studies.
+
