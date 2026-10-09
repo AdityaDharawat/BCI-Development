@@ -4047,3 +4047,12 @@ Understanding model decisions remains important for medical applications.
 Looked into common challenges encountered during residual blocks and skip connections in ResNet.
 Data heterogeneity remains a recurring issue in published studies.
 
+
+
+---
+
+### Daily Update (2026-10-09 11:10:42 IST)
+
+Spent time understanding annotation practices used in ResNet-50 feature extraction for brain MRI.
+Label quality can significantly affect training outcomes.
+
