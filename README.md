@@ -4056,3 +4056,12 @@ Data heterogeneity remains a recurring issue in published studies.
 Spent time understanding annotation practices used in ResNet-50 feature extraction for brain MRI.
 Label quality can significantly affect training outcomes.
 
+
+
+---
+
+### Daily Update (2026-10-09 13:47:12 IST)
+
+Analyzed common sources of variability affecting batch normalization in CNN-based MRI analysis.
+Scanner settings and acquisition parameters remain influential factors.
+
