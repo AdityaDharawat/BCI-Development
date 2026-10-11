@@ -4119,3 +4119,12 @@ Many studies focus on improving robustness across institutions.
 Read multiple research papers connected to CNN training stability and overfitting on small MRI datasets.
 Many approaches rely heavily on robust preprocessing before classification.
 
+
+
+---
+
+### Daily Update (2026-10-12 00:31:10 IST)
+
+Compared feature extraction pipelines used in evolution of convolutional neural networks for medical imaging.
+Some methods prioritize interpretability over predictive performance.
+
