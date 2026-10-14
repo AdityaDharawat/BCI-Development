@@ -4227,3 +4227,12 @@ Standard workflows may improve reproducibility.
 Examined preprocessing outputs associated with learning rate strategies for CNN medical image models.
 Normalization appears to improve consistency across different MRI studies.
 
+
+
+---
+
+### Daily Update (2026-10-14 18:32:30 IST)
+
+Explored how dataset characteristics impact ResNet-50 vs EfficientNet for brain MRI classification.
+Class distribution and cohort diversity seem important for evaluation.
+
