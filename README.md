@@ -4236,3 +4236,12 @@ Normalization appears to improve consistency across different MRI studies.
 Explored how dataset characteristics impact ResNet-50 vs EfficientNet for brain MRI classification.
 Class distribution and cohort diversity seem important for evaluation.
 
+
+
+---
+
+### Daily Update (2026-10-15 00:53:05 IST)
+
+Read about explainability techniques associated with squeeze-and-excitation blocks in EfficientNet.
+Understanding model decisions remains important for medical applications.
+
