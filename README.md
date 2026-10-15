@@ -4272,3 +4272,12 @@ Noticed several studies emphasize preprocessing consistency before model trainin
 Compared different MRI preprocessing pipelines related to hierarchical feature learning in CNNs for MRI.
 Standardization remains a key theme across studies.
 
+
+
+---
+
+### Daily Update (2026-10-16 03:30:18 IST)
+
+Spent time investigating challenges related to vanishing gradient problem and the development of ResNet.
+Differences in MRI acquisition protocols appear to affect downstream results.
+
