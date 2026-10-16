@@ -4299,3 +4299,12 @@ Observed that image quality variations can influence feature extraction reliabil
 Looked into automated quality control methods for squeeze-and-excitation blocks in EfficientNet.
 Early detection of problematic scans may reduce downstream errors.
 
+
+
+---
+
+### Daily Update (2026-10-17 00:43:28 IST)
+
+Reviewed literature discussing dataset harmonization for stride and padding effects in CNN MRI models.
+Reducing scanner-specific variation could improve generalization.
+
