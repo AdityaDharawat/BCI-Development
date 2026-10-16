@@ -4281,3 +4281,12 @@ Standardization remains a key theme across studies.
 Spent time investigating challenges related to vanishing gradient problem and the development of ResNet.
 Differences in MRI acquisition protocols appear to affect downstream results.
 
+
+
+---
+
+### Daily Update (2026-10-16 11:10:59 IST)
+
+Analyzed a subset of scans for ResNet-50 feature extraction for brain MRI.
+Observed that image quality variations can influence feature extraction reliability.
+
