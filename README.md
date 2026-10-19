@@ -4371,3 +4371,12 @@ Transformer-based approaches are becoming more common in medical imaging researc
 Explored how dataset characteristics impact vanishing gradient problem and the development of ResNet.
 Class distribution and cohort diversity seem important for evaluation.
 
+
+
+---
+
+### Daily Update (2026-10-20 04:19:39 IST)
+
+Looked into common challenges encountered during CNN depth and its effect on brain tumor classification.
+Data heterogeneity remains a recurring issue in published studies.
+
