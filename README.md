@@ -4416,3 +4416,12 @@ Balanced representation may help improve generalization outcomes.
 Analyzed feature extraction strategies used for identity mapping in residual neural networks.
 Certain image-derived features appear more robust across datasets.
 
+
+
+---
+
+### Daily Update (2026-10-22 01:22:22 IST)
+
+Spent time understanding evaluation metrics for ResNet depth and its effect on MRI classification.
+Different metrics can highlight different aspects of model performance.
+
