@@ -4470,3 +4470,12 @@ Independent testing cohorts are commonly recommended.
 Spent time understanding annotation practices used in EfficientNet-B0 to B7 architecture comparison.
 Label quality can significantly affect training outcomes.
 
+
+
+---
+
+### Daily Update (2026-10-23 19:58:15 IST)
+
+Looked into common challenges encountered during optimizer comparison for CNN-based MRI classification.
+Data heterogeneity remains a recurring issue in published studies.
+
