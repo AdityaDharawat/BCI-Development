@@ -4497,3 +4497,12 @@ Many studies focus on improving robustness across institutions.
 Compared several techniques used in bottleneck blocks in ResNet-50.
 Each method presents trade-offs between accuracy, complexity, and interpretability.
 
+
+
+---
+
+### Daily Update (2026-10-24 03:25:28 IST)
+
+Analyzed common sources of variability affecting CNN depth and its effect on brain tumor classification.
+Scanner settings and acquisition parameters remain influential factors.
+
