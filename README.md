@@ -4488,3 +4488,12 @@ Data heterogeneity remains a recurring issue in published studies.
 Reviewed recent publications involving CNN training stability and overfitting on small MRI datasets.
 Many studies focus on improving robustness across institutions.
 
+
+
+---
+
+### Daily Update (2026-10-24 01:39:58 IST)
+
+Compared several techniques used in bottleneck blocks in ResNet-50.
+Each method presents trade-offs between accuracy, complexity, and interpretability.
+
