@@ -4569,3 +4569,12 @@ Balanced representation may help improve generalization outcomes.
 Explored cross-cohort evaluation strategies related to fundamentals of CNN architecture for brain MRI classification.
 External validation is frequently highlighted as best practice.
 
+
+
+---
+
+### Daily Update (2026-10-26 05:10:17 IST)
+
+Spent time understanding annotation practices used in fine-tuning pretrained CNNs for brain MRI datasets.
+Label quality can significantly affect training outcomes.
+
