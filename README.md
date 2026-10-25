@@ -4560,3 +4560,12 @@ Noticed several studies emphasize preprocessing consistency before model trainin
 Examined cohort composition for low-level and high-level feature extraction using CNNs.
 Balanced representation may help improve generalization outcomes.
 
+
+
+---
+
+### Daily Update (2026-10-26 03:02:18 IST)
+
+Explored cross-cohort evaluation strategies related to fundamentals of CNN architecture for brain MRI classification.
+External validation is frequently highlighted as best practice.
+
