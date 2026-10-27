@@ -4596,3 +4596,12 @@ Many studies focus on improving robustness across institutions.
 Reviewed recent methodologies in bottleneck blocks in ResNet-50 today.
 Noticed several studies emphasize preprocessing consistency before model training.
 
+
+
+---
+
+### Daily Update (2026-10-28 04:22:40 IST)
+
+Spent time investigating challenges related to shallow vs deep CNN architectures for MRI classification.
+Differences in MRI acquisition protocols appear to affect downstream results.
+
