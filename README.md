@@ -4668,3 +4668,12 @@ Noticed several studies emphasize preprocessing consistency before model trainin
 Compared recent architectures applied to EfficientNet compound scaling method.
 Model complexity does not always translate to better performance.
 
+
+
+---
+
+### Daily Update (2026-10-31 12:29:27 IST)
+
+Compared recent architectures applied to residual blocks and skip connections in ResNet.
+Model complexity does not always translate to better performance.
+
