@@ -4677,3 +4677,12 @@ Model complexity does not always translate to better performance.
 Compared recent architectures applied to residual blocks and skip connections in ResNet.
 Model complexity does not always translate to better performance.
 
+
+
+---
+
+### Daily Update (2026-11-01 03:50:34 IST)
+
+Investigated recent developments related to CNN feature extraction using pretrained models.
+Transformer-based approaches are becoming more common in medical imaging research.
+
