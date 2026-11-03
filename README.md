@@ -4749,3 +4749,12 @@ Interesting differences exist between academic and production pipelines.
 Focused on understanding the workflow behind CNN training stability and overfitting on small MRI datasets.
 Data preparation remains a critical step before model development.
 
+
+
+---
+
+### Daily Update (2026-11-04 05:23:13 IST)
+
+Looked into common challenges encountered during residual blocks and skip connections in ResNet.
+Data heterogeneity remains a recurring issue in published studies.
+
