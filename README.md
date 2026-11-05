@@ -4785,3 +4785,12 @@ Many studies focus on improving robustness across institutions.
 Reviewed recent publications involving CNN feature extraction using pretrained models.
 Many studies focus on improving robustness across institutions.
 
+
+
+---
+
+### Daily Update (2026-11-05 13:52:28 IST)
+
+Reviewed recent methodologies in ResNet-18 vs ResNet-34 for MRI classification today.
+Noticed several studies emphasize preprocessing consistency before model training.
+
