@@ -4812,3 +4812,12 @@ Noticed several studies emphasize preprocessing consistency before model trainin
 Examined data quality issues impacting spatial feature extraction for brain tumor recognition.
 Artifact management continues to be discussed extensively in literature.
 
+
+
+---
+
+### Daily Update (2026-11-07 00:21:01 IST)
+
+Compared feature extraction pipelines used in ResNet-50 vs EfficientNet for brain MRI classification.
+Some methods prioritize interpretability over predictive performance.
+
