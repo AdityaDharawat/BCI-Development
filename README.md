@@ -4857,3 +4857,12 @@ Accurate region identification often improves downstream classification tasks.
 Compared traditional machine learning and deep learning methods for batch normalization in CNN-based MRI analysis.
 Performance differences often depend on dataset size and quality.
 
+
+
+---
+
+### Daily Update (2026-11-08 12:59:11 IST)
+
+Analyzed common sources of variability affecting end-to-end CNN learning for brain MRI classification.
+Scanner settings and acquisition parameters remain influential factors.
+
