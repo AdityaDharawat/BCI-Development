@@ -4875,3 +4875,12 @@ Scanner settings and acquisition parameters remain influential factors.
 Analyzed a subset of scans for EfficientNet parameter efficiency for small MRI datasets.
 Observed that image quality variations can influence feature extraction reliability.
 
+
+
+---
+
+### Daily Update (2026-11-09 00:49:12 IST)
+
+Explored how dataset characteristics impact depth width and resolution scaling in EfficientNet.
+Class distribution and cohort diversity seem important for evaluation.
+
