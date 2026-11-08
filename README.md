@@ -4884,3 +4884,12 @@ Observed that image quality variations can influence feature extraction reliabil
 Explored how dataset characteristics impact depth width and resolution scaling in EfficientNet.
 Class distribution and cohort diversity seem important for evaluation.
 
+
+
+---
+
+### Daily Update (2026-11-09 04:12:01 IST)
+
+Explored the impact of preprocessing choices on CNN model interpretability using Grad-CAM.
+Even small modifications may influence downstream predictions.
+
