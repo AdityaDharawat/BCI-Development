@@ -4920,3 +4920,12 @@ Practical deployment often requires extensive validation across cohorts.
 Spent time understanding evaluation metrics for optimizer comparison for CNN-based MRI classification.
 Different metrics can highlight different aspects of model performance.
 
+
+
+---
+
+### Daily Update (2026-11-11 05:26:31 IST)
+
+Analyzed feature extraction strategies used for EfficientNet parameter efficiency for small MRI datasets.
+Certain image-derived features appear more robust across datasets.
+
