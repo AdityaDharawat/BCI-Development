@@ -4911,3 +4911,12 @@ Three-dimensional information provides additional clinical context.
 Reviewed examples of clinical applications involving residual blocks and skip connections in ResNet.
 Practical deployment often requires extensive validation across cohorts.
 
+
+
+---
+
+### Daily Update (2026-11-10 07:24:40 IST)
+
+Spent time understanding evaluation metrics for optimizer comparison for CNN-based MRI classification.
+Different metrics can highlight different aspects of model performance.
+
