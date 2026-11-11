@@ -4938,3 +4938,12 @@ Certain image-derived features appear more robust across datasets.
 Explored methods for reducing preprocessing variability in end-to-end CNN learning for brain MRI classification.
 Standard workflows may improve reproducibility.
 
+
+
+---
+
+### Daily Update (2026-11-12 00:59:25 IST)
+
+Explored the impact of preprocessing choices on low-level and high-level feature extraction using CNNs.
+Even small modifications may influence downstream predictions.
+
