@@ -4929,3 +4929,12 @@ Different metrics can highlight different aspects of model performance.
 Analyzed feature extraction strategies used for EfficientNet parameter efficiency for small MRI datasets.
 Certain image-derived features appear more robust across datasets.
 
+
+
+---
+
+### Daily Update (2026-11-11 11:22:10 IST)
+
+Explored methods for reducing preprocessing variability in end-to-end CNN learning for brain MRI classification.
+Standard workflows may improve reproducibility.
+
