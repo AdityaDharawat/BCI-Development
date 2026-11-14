@@ -4992,3 +4992,12 @@ Scanner settings and acquisition parameters remain influential factors.
 Examined data quality issues impacting ResNet-50 feature extraction for brain MRI.
 Artifact management continues to be discussed extensively in literature.
 
+
+
+---
+
+### Daily Update (2026-11-14 05:44:40 IST)
+
+Reviewed literature discussing dataset harmonization for ResNet-50 vs EfficientNet for brain MRI classification.
+Reducing scanner-specific variation could improve generalization.
+
