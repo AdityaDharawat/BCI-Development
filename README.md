@@ -5001,3 +5001,12 @@ Artifact management continues to be discussed extensively in literature.
 Reviewed literature discussing dataset harmonization for ResNet-50 vs EfficientNet for brain MRI classification.
 Reducing scanner-specific variation could improve generalization.
 
+
+
+---
+
+### Daily Update (2026-11-15 00:57:37 IST)
+
+Compared several techniques used in ResNet depth and its effect on MRI classification.
+Each method presents trade-offs between accuracy, complexity, and interpretability.
+
