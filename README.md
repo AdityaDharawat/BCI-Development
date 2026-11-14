@@ -5010,3 +5010,12 @@ Reducing scanner-specific variation could improve generalization.
 Compared several techniques used in ResNet depth and its effect on MRI classification.
 Each method presents trade-offs between accuracy, complexity, and interpretability.
 
+
+
+---
+
+### Daily Update (2026-11-15 01:33:12 IST)
+
+Studied preprocessing recommendations proposed for CNN depth and its effect on brain tumor classification.
+Several guidelines emphasize consistency across datasets.
+
