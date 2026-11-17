@@ -5055,3 +5055,12 @@ Standardization remains a key theme across studies.
 Reviewed advances in 3D deep learning relevant to ResNet-50 feature extraction for brain MRI.
 Volumetric models continue to show promising results.
 
+
+
+---
+
+### Daily Update (2026-11-17 07:52:05 IST)
+
+Analyzed feature extraction strategies used for ResNet-50 vs EfficientNet for brain MRI classification.
+Certain image-derived features appear more robust across datasets.
+
