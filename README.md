@@ -5073,3 +5073,12 @@ Certain image-derived features appear more robust across datasets.
 Reviewed research focused on clinical translation of dropout and regularization in CNN tumor classification.
 Interpretability and reliability remain major considerations.
 
+
+
+---
+
+### Daily Update (2026-11-17 23:41:59 IST)
+
+Analyzed segmentation outputs associated with ResNet-18 vs ResNet-34 for MRI classification.
+Boundary precision appears important for downstream analysis.
+
