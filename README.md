@@ -5145,3 +5145,12 @@ Cross-dataset evaluation is frequently used to assess robustness.
 Focused on understanding the workflow behind ResNet-50 architecture for brain tumor classification.
 Data preparation remains a critical step before model development.
 
+
+
+---
+
+### Daily Update (2026-11-22 04:35:31 IST)
+
+Analyzed common sources of variability affecting low-level and high-level feature extraction using CNNs.
+Scanner settings and acquisition parameters remain influential factors.
+
