@@ -5172,3 +5172,12 @@ Label quality can significantly affect training outcomes.
 Investigated data augmentation practices used in CNN architecture optimization for brain tumor MRI classification.
 Several studies report improvements when training diversity is increased.
 
+
+
+---
+
+### Daily Update (2026-11-23 01:24:55 IST)
+
+Read multiple research papers connected to ResNet-50 feature extraction for brain MRI.
+Many approaches rely heavily on robust preprocessing before classification.
+
