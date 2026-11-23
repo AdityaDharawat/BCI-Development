@@ -5181,3 +5181,12 @@ Several studies report improvements when training diversity is increased.
 Read multiple research papers connected to ResNet-50 feature extraction for brain MRI.
 Many approaches rely heavily on robust preprocessing before classification.
 
+
+
+---
+
+### Daily Update (2026-11-23 05:34:01 IST)
+
+Compared several techniques used in EfficientNet transfer learning for brain tumor classification.
+Each method presents trade-offs between accuracy, complexity, and interpretability.
+
