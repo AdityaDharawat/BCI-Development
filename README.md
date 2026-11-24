@@ -5190,3 +5190,12 @@ Many approaches rely heavily on robust preprocessing before classification.
 Compared several techniques used in EfficientNet transfer learning for brain tumor classification.
 Each method presents trade-offs between accuracy, complexity, and interpretability.
 
+
+
+---
+
+### Daily Update (2026-11-24 09:43:25 IST)
+
+Investigated data augmentation practices used in ResNet depth and its effect on MRI classification.
+Several studies report improvements when training diversity is increased.
+
