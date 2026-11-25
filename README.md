@@ -5208,3 +5208,12 @@ Several studies report improvements when training diversity is increased.
 Reviewed recent benchmark studies connected to CNN depth and its effect on brain tumor classification.
 Cross-dataset evaluation is frequently used to assess robustness.
 
+
+
+---
+
+### Daily Update (2026-11-25 12:33:18 IST)
+
+Read about explainability techniques associated with activation functions in medical image CNNs.
+Understanding model decisions remains important for medical applications.
+
