@@ -5199,3 +5199,12 @@ Each method presents trade-offs between accuracy, complexity, and interpretabili
 Investigated data augmentation practices used in ResNet depth and its effect on MRI classification.
 Several studies report improvements when training diversity is increased.
 
+
+
+---
+
+### Daily Update (2026-11-25 08:27:35 IST)
+
+Reviewed recent benchmark studies connected to CNN depth and its effect on brain tumor classification.
+Cross-dataset evaluation is frequently used to assess robustness.
+
