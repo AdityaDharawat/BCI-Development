@@ -5226,3 +5226,12 @@ Understanding model decisions remains important for medical applications.
 Examined approaches for handling class imbalance in stride and padding effects in CNN MRI models.
 Sampling strategies continue to be widely adopted.
 
+
+
+---
+
+### Daily Update (2026-11-26 11:41:04 IST)
+
+Analyzed feature extraction strategies used for CNN architecture optimization for brain tumor MRI classification.
+Certain image-derived features appear more robust across datasets.
+
