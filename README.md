@@ -5253,3 +5253,12 @@ Transformer-based approaches are becoming more common in medical imaging researc
 Spent time understanding annotation practices used in CNN model interpretability using Grad-CAM.
 Label quality can significantly affect training outcomes.
 
+
+
+---
+
+### Daily Update (2026-11-28 02:39:41 IST)
+
+Explored the impact of preprocessing choices on fine-tuning pretrained CNNs for brain MRI datasets.
+Even small modifications may influence downstream predictions.
+
