@@ -5244,3 +5244,12 @@ Certain image-derived features appear more robust across datasets.
 Investigated recent developments related to learning rate strategies for CNN medical image models.
 Transformer-based approaches are becoming more common in medical imaging research.
 
+
+
+---
+
+### Daily Update (2026-11-27 07:33:30 IST)
+
+Spent time understanding annotation practices used in CNN model interpretability using Grad-CAM.
+Label quality can significantly affect training outcomes.
+
