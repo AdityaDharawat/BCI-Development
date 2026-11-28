@@ -5262,3 +5262,12 @@ Label quality can significantly affect training outcomes.
 Explored the impact of preprocessing choices on fine-tuning pretrained CNNs for brain MRI datasets.
 Even small modifications may influence downstream predictions.
 
+
+
+---
+
+### Daily Update (2026-11-28 07:18:24 IST)
+
+Analyzed a subset of scans for ResNet depth and its effect on MRI classification.
+Observed that image quality variations can influence feature extraction reliability.
+
